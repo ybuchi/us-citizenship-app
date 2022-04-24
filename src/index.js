@@ -3,24 +3,33 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Outlet,
 } from "react-router-dom";
+import { createRoot } from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Quiz from './Components/QuizPage/QuizPage';
+import QuizPage from './Components/QuizPage/QuizPage';
+import StudyPage from './Components/StudyPage/StudyPage';
+import Home from './Components/Home/Home';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
 root.render(
+  <>
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="/quiz" element={<Quiz />}/>
+        <Route index element={<Home />}/>
+        <Route path="study" element={<StudyPage/>}/>
+        <Route path="quiz" element={<QuizPage />}/>
       </Route>
     </Routes>
-   
   </BrowserRouter>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
