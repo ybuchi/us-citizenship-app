@@ -1,6 +1,4 @@
-import React from "react";
-
-const questionsData = [
+{"questions":[
     {
         "id": 1,
         "question": "What is the form of government of the United States?",
@@ -176,7 +174,7 @@ const questionsData = [
                         "Writes laws.",
                         "Declares war.",
                         "Makes the federal budget."
-        ]
+                    ]
     },
     {
         "id": 21,
@@ -694,7 +692,7 @@ const questionsData = [
         "answers": [
                         "New Hampshire",
                         "Massachusetts",
-                    " Rhode Island",
+                        " Rhode Island",
                         "Connecticut",
                         "New York",
                         "New Jersey",
@@ -753,7 +751,7 @@ const questionsData = [
                         "'Father of Our Country'",
                         "First president of the United States",                                
                         "General of the Continental Army",
-                        "President of the Constitutional Convention",
+                        "President of the Constitutional Convention"
                     ]
     },
     {
@@ -1177,5 +1175,4 @@ const questionsData = [
                     ]
     }
 ]
-
-export default questionsData;
+}
