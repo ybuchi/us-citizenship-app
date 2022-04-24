@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import QuestionCard from "../QuestionCard/QuestionCard";
 import { Button } from "react-bootstrap";
 import { useOutletContext } from "react-router-dom";
@@ -6,13 +6,41 @@ import { useOutletContext } from "react-router-dom";
 function StudyPage(){
     //useOutletContext allows me to pass props from the "Outlet" component in the App.js page
     const [questionsData, setQuestionsData] = useOutletContext();
+    const [filterState, setFilterState] = useState([])
 
-    const mappedQuestions = questionsData.map((question)=>{
+    const filteredQuestions = questionsData.filter((question) => {
+       //For every question object, if its type contains any values in the filterState type, render it
+       if(filterState.length === 0){
+           return question;
+       }else if(question.type.some(typeValue => filterState.includes(typeValue))){
+           return question;
+       }else{
+           return false
+       }
+    })
+    console.log("FilteredQuestions", filteredQuestions);
+
+    const mappedQuestions = filteredQuestions.map((question)=>{
         return(<QuestionCard key={question.id} question={question}/>)
     })
 
     function handleFilter(e){
-        console.log(e.target.id)
+        console.log(e.target.name)
+        // Track whether the button is clicked or not (check if the filter state is included in the filterState array)
+        if(!filterState.includes(e.target.name)){
+            setFilterState([...filterState, e.target.name])
+        }else if(filterState.includes(e.target.name)){
+            const newFilterState = filterState.filter(value => value !== e.target.name)
+            setFilterState(newFilterState);
+        }else{
+            setFilterState(questionsData);
+        }
+        
+        //If it has already been clicked
+            //Remove it from the filterState array
+
+            
+
     }
     return(
         <>
@@ -20,13 +48,13 @@ function StudyPage(){
 
         <div id="study-filter">
             <h4>Filter by Question Type</h4>
-            <Button id="filter-history" onClick={handleFilter} variant="light">history</Button>
-            <Button id="filter-chistory" onClick={handleFilter} variant="light">colonial history</Button>
-            <Button id="filter-eighteenhundreds" onClick={handleFilter} variant="light">1800s</Button>
-            <Button id="filter-recenth" onClick={handleFilter} variant="light">recent history</Button>
-            <Button id="filter-civics" onClick={handleFilter} variant="light"> civcs</Button>
-            <Button id="filter-sandh" onClick={handleFilter} variant="light">symbols and holidays</Button>
-            <Button id="filter-flagged" onClick={handleFilter} variant="light">flagged</Button>
+            <Button id="filter-history" name="history" onClick={handleFilter} variant="light">history</Button>
+            <Button id="filter-chistory" name="colonial history" onClick={handleFilter} variant="light">colonial history</Button>
+            <Button id="filter-eighteenhundreds" name="1800s" onClick={handleFilter} variant="light">1800s</Button>
+            <Button id="filter-recenth" name="recent history"onClick={handleFilter} variant="light">recent history</Button>
+            <Button id="filter-civics" name="civics" onClick={handleFilter} variant="light"> civcs</Button>
+            <Button id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
+            <Button id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
         </div>
 
         {mappedQuestions}
