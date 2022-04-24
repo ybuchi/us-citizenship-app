@@ -4,6 +4,7 @@ const questionsData = [
     {
         "id": 1,
         "question": "What is the form of government of the United States?",
+        "type": ["civics"],
         "answers": [
                         "Republic",
                         "Constitution-based federal republic",
@@ -13,11 +14,13 @@ const questionsData = [
     {
         "id": 2,
         "question": "What is the supreme law of the land?",
+        "type": ["civics"],
         "answers": ["The U.S. Constitution"]
     },
     {
         "id": 3,
         "question": "Name one thing the U.S. Constitution does.",
+        "type": ["civics"],
         "answers": [
                         "Forms the government.",
                         "Defines the parts of the government",
@@ -27,6 +30,7 @@ const questionsData = [
     {
         "id": 4,
         "question": "The U.S. Constitution starts with the the words 'We the People'. What does 'We the People' mean?",
+        "type": ["civics"],
         "answers": [
                         "Self government",
                         "Popular sovereignty",
@@ -38,11 +42,13 @@ const questionsData = [
     {
         "id": 5,
         "question": "How are changes made the U.S. Constitution?",
+        "type": ["civics"],
         "answers": ["The amendment process"]
     },
     {
         "id": 6,
         "question": "What does the Bill of Rights protect?",
+        "type": ["civics"],
         "answers": [
                         "(The basic) rights of all Americans",
                         "(The basic) rights of people living in the United States"
@@ -51,11 +57,13 @@ const questionsData = [
     {
         "id": 7,
         "question": "How many amendments does the U.S. Consitution have?",
+        "type": ["civics"],
         "answers": [27]
     },
     {
         "id": 8,
         "question": "Why is the Declaration of Independence important?",
+        "type": ["civics"],
         "answers": [
                         "It says America is free from British control.",
                         "It says all people are created equal.",
@@ -66,11 +74,13 @@ const questionsData = [
     {
         "id": 9,
         "question": "What founding document said the American colonies were free from Britain?",
+        "type": ["civics"],
         "answers": ["Declaration of Independence"]
     },
     {
         "id": 10,
         "question": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+        "type": ["civics"],
         "answers": [
                         "Equality",
                         "Liberity",
@@ -82,16 +92,19 @@ const questionsData = [
     {
         "id": 11,
         "question": "The words 'Life, Liberty, and the pursuit of Happiness' are in what founding document?",
+        "type": ["civics"],
         "answers": ["Declaration of Independence"]
     },
     {
         "id": 12,
         "question": "What is the economic system of the United States?",
+        "type": ["civics"],
         "answers": ["Capitalism", "Free market economy"]
     },
     {
         "id": 13,
         "question": "What is the rule of law?",
+        "type": ["civics"],
         "answers": [
                         "Everyone must follow the law.",
                         "Leaders must obey the law.",
@@ -102,6 +115,7 @@ const questionsData = [
     {
         "id": 14,
         "question": "Many documents influenced the U.S. Constitution. Name one.",
+        "type": ["civics"],
         "answers": [
                         "Declaration of Independence",
                         "Articles of Confederation",
@@ -116,6 +130,7 @@ const questionsData = [
     {
         "id": 15,
         "question": "There are three branches of government. Why?",
+        "type": ["civics"],
         "answers": [
                         "So one part does not become too powerful.",
                         "Checks and balances.",
@@ -125,6 +140,7 @@ const questionsData = [
     {
         "id": 16,
         "question": "Name the three branches of government.",
+        "type": ["civics"],
         "answers": [
                         "Legislative, executive, judicial.",
                         "Congress, the president, and the courts"
@@ -133,11 +149,13 @@ const questionsData = [
     {
         "id": 17,
         "question": "The President of the United States is in charge of which branch of government?",
+        "type": ["civics"],
         "answers": ["Executive branch"]
     },
     {
         "id": 18,
         "question": "What part of the federal government writes laws?",
+        "type": ["civics"],
         "answers": [
                         "(U.S.) Congress",
                         "(U.S. or national) legislature",
@@ -147,11 +165,13 @@ const questionsData = [
     {
         "id": 19,
         "question": "What are the two parts of the U.S. Congress?",
+        "type": ["civics"],
         "answers": ["Senate and the House (of Representatives)"]
     },
     {
         "id": 20,
         "question": "Name one power of the U.S. Congress",
+        "type": ["civics"],
         "answers": [
                         "Writes laws.",
                         "Declares war.",
@@ -161,66 +181,79 @@ const questionsData = [
     {
         "id": 21,
         "question": "How many U.S. Senators are there?",
+        "type": ["civics"],
         "answers": [ "One hundred (100)"]
     },
     {
         "id": 22,
         "question": "How long is a term for a U.S. Senator?",
+        "type": ["civics"],
         "answers": ["Six (6) years"]
     },
     {
         "id": 23,
         "question": "What is one of your state's U.S. Senator now? Answers depend on your state.",
+        "type": ["civics"],
         "answers": ["[NY] Kirsten Gillibrand", "[NY] Charles E. Schumer"]
     },
     {
         "id": 24,
         "question": "How many voting members are in the House of Representatives?",
+        "type": ["civics"],
         "answers": ["Four hundred thirty-five (435"]
     },
     {
         "id": 25,
         "question": "How long is a term for a member of the House of Representatives?",
+        "type": ["civics"],
         "answers": ["Two (2) years."]
     },
     {
         "id": 26,
         "question": "Why do U.S. representatives serve shorter terms than U.S. senators?",
+        "type": ["civics"],
         "answers": ["To more closely follow public opinion."]
     },
     {
         "id": 27,
         "question": "How many senators does each state have?",
+        "type": ["civics"],
         "answers": ["Two (2)."]
     },
     {
         "id": 28,
         "question": "Why does each state have two senators?",
+        "type": ["civics"],
         "answers": ["Equal representation (for small states)", "The Great Compromise (Connecticut Compromise)"]
     },
     {
         "id": 29,
         "question": "Name your U.S. representative.",
+        "type": ["civics"],
         "answers": ["[Queens, NY] Grace Meng"]
     },
     {
         "id": 30,
         "question": "What is the name of the Speaker of the House of Representatives now?",
+        "type": ["civics"],
         "answers": ["Nancy Pelosi"]
     },
     {
         "id": 31,
         "question": "Who does a U.S. senator represent?",
+        "type": ["civics"],
         "answers": ["Citizens of their state", "People of their state"]
     },
     {
         "id": 32,
         "question": "Who elects U.S. Senators?",
+        "type": ["civics"],
         "answers": ["Citizens from their state"]
     },
     {
         "id": 33,
         "question": "Who does a member of the House of Representatives represent?",
+        "type": ["civics"],
         "answers": [
                         "Citizens from their (congressional) district.",
                         "Citizens in their district.", 
@@ -231,11 +264,13 @@ const questionsData = [
     {
         "id": 34,
         "question": "Who elects members of the House of Representatives?",
+        "type": ["civics"],
         "answers": ["Citizens from their congressional district."]
     },
     {
         "id": 35,
         "question": "Some states have more representatives than other states. Why?",
+        "type": ["civics"],
         "answers": [
                         "Because of the state's population.",
                         "Because they have more people.",
@@ -245,31 +280,37 @@ const questionsData = [
     {
         "id": 36,
         "question": "The President of the United States is elected for how many years?",
+        "type": ["civics"],
         "answers": ["Four (4) years"]
     },
     {
         "id": 37,
         "question": "The President of the United States can serve only two terms. Why?",
+        "type": ["civics"],
         "answers": ["(Because of the) 22nd Amendment.", "To keep the president from becoming too powerful."]
     },
     {
         "id": 38,
         "question": "What is the name of the President of the United States now?",
+        "type": ["civics"],
         "answers": ["Joe Biden"]
     },
     {
         "id": 39,
         "question": "What is the name of the Vice President of the United States now?",
+        "type": ["civics"],
         "answers": ["Kamala Harris"]
     },
     {
         "id": 40,
         "question": "If the president can no longer serve, who becomes president? ",
+        "type": ["civics"],
         "answers": ["The vice-president"]
     },
     {
         "id": 41,
         "question": "Name one power of the president.",
+        "type": ["civics"],
         "answers": [
                         "Signs bills into law.",
                         "Vetoes bills.",
@@ -281,36 +322,43 @@ const questionsData = [
     {
         "id": 42,
         "question": "Who is Commander-in-Chief of the U.S. military?",
+        "type": ["civics"],
         "answers": ["The President (of the United States.)"]
     },
     {
         "id": 43,
         "question": "Who signs bills to become laws?",
+        "type": ["civics"],
         "answers": ["The President (of the United States.)"]
     },
     {
         "id": 44,
         "question": "Who vetoes bills?",
+        "type": ["civics"],
         "answers": ["The President (of the United States.)"]
     },
     {
         "id": 45,
         "question": "Who appoints federal judges?",
+        "type": ["civics"],
         "answers": ["The President (of the United States.)"]
     },
     {
         "id": 46,
         "question": "The executive branch has many parts. Name one.",
+        "type": ["civics"],
         "answers": ["The President (of the United States)" ,"Cabinet", "Federal departments and agencies"]
     },
     {
         "id": 47,
-        "question": "What does the President�s Cabinet do?",
+        "question": "What does the President's Cabinet do?",
+        "type": ["civics"],
         "answers": ["Advises the president (of the United States)."]
     },
     {
         "id": 48,
         "question": "What are two Cabinet-level positions?",
+        "type": ["civics"],
         "answers": [
                         "Attorney General",
                         "Secretary of Agriculture",
@@ -333,6 +381,7 @@ const questionsData = [
     {
         "id": 49,
         "question": "Why is the Electoral College Important?",
+        "type": ["civics"],
         "answers": [
                         "It decides who is elected president.",
                         "It provides a compromise between the popular election of the president and congressional selection."
@@ -341,11 +390,13 @@ const questionsData = [
     {
         "id": 50,
         "question": "What is one part of the judicial branch?",
+        "type": ["civics"],
         "answers": ["Supreme Court", "Federal Courts"]
     },
     {
         "id": 51,
         "question": "What does the judicial branch do?",
+        "type": ["civics"],
         "answers": [
                         "Reviews laws.", 
                         "Explains laws.", 
@@ -356,21 +407,25 @@ const questionsData = [
     {
         "id": 52,
         "question": "What is the highest court in the United States?",
+        "type": ["civics"],
         "answers": ["The Supreme Court"]
     },
     {
         "id": 53,
         "question": "How many seats are on the Supreme Court?",
+        "type": ["civics"],
         "answers": ["Nine (9)"]
     },
     {
         "id": 54,
         "question": "How many Supreme Court justices are usually needed to decide a case?",
+        "type": ["civics"],
         "answers": ["Five (5)"]
     },
     {
         "id": 55,
         "question": "How long do Supreme Court justices serve?",
+        "type": ["civics"],
         "answers": [
                         "(For) Life.",
                         "Lifetime appointment.",
@@ -381,6 +436,7 @@ const questionsData = [
     {
         "id": 56,
         "question": "Supreme Court justices serve for life. Why?",
+        "type": ["civics"],
         "answers": [
                         "To be independent (of politics).",
                         "To limit outside (political) influence."
@@ -390,11 +446,13 @@ const questionsData = [
     {
         "id": 57,
         "question": "Who is the Chief Justice of the United States now?",
+        "type": ["civics"],
         "answers": ["John Roberts"]
     },
     {
         "id": 58,
         "question": "Name one power that is only for the federal government.",
+        "type": ["civics"],
         "answers": [
                         "Print paper money",
                         "Mint coins",
@@ -407,6 +465,7 @@ const questionsData = [
     {
         "id": 59,
         "question": "Name one power that is only for the states.",
+        "type": ["civics"],
         "answers": [
                         "Provide schooling and education",
                         "Provide protection (police)",
@@ -418,21 +477,25 @@ const questionsData = [
     {
         "id": 60,
         "question": "What is the purpose of the 10th Amendment?",
+        "type": ["civics"],
         "answers": ["(It states that the) powers not given to the federal government belong to the states or to the people."]
     },
     {
         "id": 61,
         "question": "Who is the governor of your state now?",
+        "type": ["civics"],
         "answers": ["[NY] Kathy Hochul"]
     },
     {
         "id": 62,
         "question": "What is the capital of your state?",
+        "type": ["civics"],
         "answers": ["[NY] Albany"]
     },
     {
         "id": 63,
         "question": "There are four amendments to the U.S. Constitution about who can vote. Describe one of them. ",
+        "type": ["civics"],
         "answers": [
             "Citizens eighteen (18) and older (can vote).",
             "You don�t have to pay (a poll tax) to vote.",
@@ -444,6 +507,7 @@ const questionsData = [
     {
         "id": 64,
         "question": "Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+        "type": ["civics"],
         "answers": [
                         "Citizens",
                         "Citizens of the United States",
@@ -453,6 +517,7 @@ const questionsData = [
     {
         "id": 65,
         "question": "What are three rights of everyone living in the United States? ",
+        "type": ["civics"],
         "answers": [
                         "Freedom of expression",
                         "Freedom of speech",
@@ -465,11 +530,13 @@ const questionsData = [
     {
         "id": 66,
         "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+        "type": ["civics"],
         "answers": ["The United States", "The flag"]
     },
     {
         "id": 67,
         "question": "Name two promises that new citizens make in the Oath of Allegiance. ",
+        "type": ["civics"],
         "answers": [
                         "Give up loyalty to other countries",
                         "Defend the (U.S.) Constitution",
@@ -482,6 +549,7 @@ const questionsData = [
     {
         "id": 68,
         "question": "How can people become United States citizens?",
+        "type": ["civics"],
         "answers": [
                         "Naturalize",
                         "Derive citizenship",
@@ -491,6 +559,7 @@ const questionsData = [
     {
         "id": 69,
         "question": "What are two examples of civic participation in the United States?",
+        "type": ["civics"],
         "answers": [
                         "Vote",                                                                             
                         "Run for office",
@@ -507,6 +576,7 @@ const questionsData = [
     {
         "id": 70,
         "question": "What is one way Americans can serve their country?",
+        "type": ["civics"],
         "answers": [
                         "Vote",                                                                                                 
                         "Pay taxes",                                                               
@@ -519,6 +589,7 @@ const questionsData = [
     {
         "id": 71,
         "question": "Why is it important to pay federal taxes?",
+        "type": ["civics"],
         "answers": [
                         "Required by law",
                         "All people pay to fund the federal government",
@@ -529,6 +600,7 @@ const questionsData = [
     {
         "id": 72,
         "question": "It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+        "type": ["civics"],
         "answers": [
                         "Required by law",
                         "Civic duty",
@@ -538,6 +610,7 @@ const questionsData = [
     {
         "id": 73,
         "question": "The colonists came to America for many reasons. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "Freedom",
                         "Political liberty",
@@ -549,6 +622,7 @@ const questionsData = [
     {
         "id": 74,
         "question": "Who lived in America before the Europeans arrived?",
+        "type": ["history", "colonial history"],
         "answers": [
                         "American Indians",
                         "Native Americans"
@@ -557,11 +631,13 @@ const questionsData = [
     {
         "id": 75,
         "question": "What group of people was taken and sold as slaves?",
+        "type": ["history", "colonial history"],
         "answers": ["Africans", "People from Africa"]
     },
     {
         "id": 76,
         "question": "What war did the Americans fight to win independence from Britain?",
+        "type": ["history", "colonial history"],
         "answers": [
 
                         " American Revolution",
@@ -572,6 +648,7 @@ const questionsData = [
     {
         "id": 77,
         "question": "Name one reason why the Americans declared independence from Britain.",
+        "type": ["history", "colonial history"],
         "answers": [
                         " High taxes" ,
                         "Taxation without representation",
@@ -588,16 +665,19 @@ const questionsData = [
     {
         "id": 78,
         "question": "Who wrote the Declaration of Independence?",
+        "type": ["history", "colonial history"],
         "answers": ["(Thomas) Jefferson"]
     },
     {
         "id": 79,
         "question": "When was the Declaration of Independence adopted?",
+        "type": ["history", "colonial history", "civics"],
         "answers": ["July 4th, 1776"]
     },
     {
         "id": 80,
         "question": "The American Revolution had many important events. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "(Battle of) Bunker Hill",
                         "Declaration of Independence ",
@@ -610,6 +690,7 @@ const questionsData = [
     {
         "id": 81,
         "question": "There were 13 original states. Name five.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "New Hampshire",
                         "Massachusetts",
@@ -629,11 +710,13 @@ const questionsData = [
     {
         "id": 82,
         "question": "What founding document was written in 1787?",
+        "type": ["history", "colonial history"],
         "answers": ["(U.S.)Consitution"]
     },
     {
         "id": 83,
         "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "(James) Madison",
                         "(Alexander) Hamilton",
@@ -644,6 +727,7 @@ const questionsData = [
     {
         "id": 84,
         "question": "Why were the Federalist Papers important?",
+        "type": ["history", "colonial history"],
         "answers": [
                         "They helped people understand the (U.S.) Constitution.",
                         "They supported passing the (U.S.) Constitution."
@@ -652,6 +736,7 @@ const questionsData = [
     {
         "id": 85,
         "question": "Benjamin Franklin is famous for many things. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "Founded the first free public libraries",
                         "First Postmaster General of the United States",
@@ -663,6 +748,7 @@ const questionsData = [
     {
         "id": 86,
         "question": "George Washington is famous for many things. Name one. ",
+        "type": ["history", "colonial history"],
         "answers": [
                         "'Father of Our Country'",
                         "First president of the United States",                                
@@ -673,6 +759,7 @@ const questionsData = [
     {
         "id": 87,
         "question": "Thomas Jefferson is famous for many things. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "Writer of the Declaration of Independence  ",                 
                         "Third president of the United States",
@@ -685,6 +772,7 @@ const questionsData = [
     {
         "id": 88,
         "question": "James Madison is famous for many things. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
                         "'Father of the Constitution'",                     
                         "Fourth president of the United States",
@@ -695,6 +783,7 @@ const questionsData = [
     {
         "id": 89,
         "question": "Alexander Hamilton is famous for many things. Name one.",
+        "type": ["history", "colonial history"],
         "answers": [
 
                         "First Secretary of the Treasury",
@@ -707,6 +796,7 @@ const questionsData = [
     {
         "id": 90,
         "question": "What territory did the United States buy from France in 1803?",
+        "type": ["history", "1800s"],
         "answers": [
                         "Louisiana Territory",                      
                         "Louisiana"
@@ -715,6 +805,7 @@ const questionsData = [
     {
         "id": 91,
         "question": "Name one war fought by the United States in the 1800s.",
+        "type": ["history", "1800s"],
         "answers": [
                         "War of 1812",
                         "Mexican-American War",
@@ -725,11 +816,13 @@ const questionsData = [
     {
         "id": 92,
         "question": "Name the U.S. war between the North and the South.",
+        "type": ["history", "1800s"],
         "answers": ["The Civil War"]
     },
     {
         "id": 93,
         "question": "The Civil War had many important events. Name one.",
+        "type": ["history", "1800s"],
         "answers": [
                         "(Battle of) Fort Sumter",
                         "Emancipation Proclamation",
@@ -744,6 +837,7 @@ const questionsData = [
     {
         "id": 94,
         "question": "Abraham Lincoln is famous for many things. Name one.",
+        "type": ["history", "1800s"],
         "answers": [
                         "Freed the slaves (Emancipation Proclamation)",
                         "Saved (or preserved) the Union",
@@ -755,6 +849,7 @@ const questionsData = [
     {
         "id": 95,
         "question": "What did the Emancipation Proclamation do?",
+        "type": ["history", "1800s"],
         "answers": [
                         "Freed the slaves",
                         "Freed slaves in the Confederacy",
@@ -765,16 +860,19 @@ const questionsData = [
     {
         "id": 96,
         "question": "What U.S. war ended slavery?",
+        "type": ["history", "1800s"],
         "answers": ["The Civil War"]
     },
     {
         "id": 97,
         "question": "What amendment gives citizenship to all persons born in the United States?",
+        "type": ["history", "1800s"],
         "answers": ["14th Amendment"]
     },
     {
         "id": 98,
         "question": "When did all men get the right to vote?",
+        "type": ["history", "1800s"],
         "answers": [
                         "After the Civil War",
                         "During Reconstruction ",
@@ -785,6 +883,7 @@ const questionsData = [
     {
         "id": 99,
         "question": "Name one leader of the women�s rights movement in the 1800s.",
+        "type": ["history", "1800s"],
         "answers": [
                         "Susan B. Anthony",
                         "Elizabeth Cady Stanton",
@@ -797,6 +896,7 @@ const questionsData = [
     {
         "id": 100,
         "question": "Name one war fought by the United States in the 1900s.",
+        "type": ["history", "recent history"],
         "answers": [
                         "World War I",
                         "World War II",
@@ -808,6 +908,7 @@ const questionsData = [
     {
         "id": 101,
         "question": "Why did the United States enter World War I?",
+        "type": ["history", "recent history"],
         "answers": [
                         "Because Germany attacked U.S. (civilian) ships.",
                         "To support the Allied Powers (England, France, Italy, and Russia).",
@@ -817,6 +918,7 @@ const questionsData = [
     {
         "id": 102,
         "question": "When did all women get the right to vote?",
+        "type": ["history", "recent history"],
         "answers": [
                         "1920",
                         "After World War I",
@@ -826,11 +928,13 @@ const questionsData = [
     {
         "id": 103,
         "question": "What was the Great Depression?",
+        "type": ["history", "recent history"],
         "answers": ["Longest economic recession in modern history"]
     },
     {
         "id": 104,
         "question": "When did the Great Depression start?",
+        "type": ["history", "recent history"],
         "answers": [
                         "The Great Crash (1929)",
                         "Stock market crash of 1929"
@@ -839,11 +943,13 @@ const questionsData = [
     {
         "id": 105,
         "question": "Who was president during the Great Depression and World War II?",
+        "type": ["history", "recent history"],
         "answers": ["(Franklin D.) Roosevelt"]
     },
     {
         "id": 106,
         "question": "Why did the United States enter World War II?",
+        "type": ["history", "recent history"],
         "answers": [
                         "(Bombing of) Pearl Harbor",
                         "Japanese attacked Pearl Harbor",
@@ -854,6 +960,7 @@ const questionsData = [
     {
         "id": 107,
         "question": "Dwight Eisenhower is famous for many things. Name one. ",
+        "type": ["history", "recent history"],
         "answers": [
                         "General during World War II",
                         "President at the end of (during) the Korean War",
@@ -864,6 +971,7 @@ const questionsData = [
     {
         "id": 108,
         "question": "Who was the United States' main rival during the Cold War?",
+        "type": ["history", "recent history"],
         "answers": [
                         "Soviet Union",
                         "USSR",
@@ -873,6 +981,7 @@ const questionsData = [
     {
         "id": 109,
         "question": "During the Cold War, what was one main concern of the United States?",
+        "type": ["history", "recent history"],
         "answers": [
                         "Communism",
                         "Nuclear war"
@@ -881,21 +990,25 @@ const questionsData = [
     {
         "id": 110,
         "question": "Why did the United States enter the Korean War?",
+        "type": ["history", "recent history"],
         "answers": ["To stop the spread of communism."]
     },
     {
         "id": 111,
         "question": "Why did the United States enter the Vietnam War?",
+        "type": ["history", "recent history"],
         "answers": ["To stop the spread of communism."]
     },
     {
         "id": 112,
         "question": "What did the civil rights movement do?",
+        "type": ["history", "recent history"],
         "answers": ["Fought to end racial discrimination."]
     },
     {
         "id": 113,
         "question": "Martin Luther King, Jr. is famous for many things. Name one.",
+        "type": ["history", "recent history"],
         "answers": [
                         "Fought for civil rights",
                         "Worked for equality for all Americans",
@@ -905,11 +1018,13 @@ const questionsData = [
     {
         "id": 114,
         "question": "Why did the United States enter the Persian Gulf War?",
+        "type": ["history", "recent history"],
         "answers": ["To force the Iraqi military from Kuwait."]
     },
     {
         "id": 115,
         "question": "What major event happened on September 11, 2001 in the United States?",
+        "type": ["history", "recent history"],
         "answers": [
                         "Terrorists attacked the United States ",
                         "Terrorists took over two planes and crashed them into the World Trade Center in New York City.",
@@ -920,6 +1035,7 @@ const questionsData = [
     {
         "id": 116,
         "question": "Name one U.S. military conflict after the September 11, 2001 attacks.",
+        "type": ["history", "recent history"],
         "answers": [
                         "(Global) War on Terror",
                         "War in Afghanistan",
@@ -929,6 +1045,7 @@ const questionsData = [
     {
         "id": 117,
         "question": "Name one Native American tribe in the United States.",
+        "type": ["history", "recent history", "civics", "colonial history", "1800s"],
         "answers": [
                         "Apache",
                         "Blackfeet",
@@ -961,6 +1078,7 @@ const questionsData = [
     {
         "id": 118,
         "question": "Name one example of an American innovation.",
+        "type": ["history", "recent history"],
         "answers": [
                         "Light bulb",
                         "Automobile (cars, internal combustion engine)",
@@ -974,11 +1092,13 @@ const questionsData = [
     {
         "id": 119,
         "question": "What is the capital of the United States?",
+        "type": ["history", "symbols and holidays"],
         "answers": ["Washington, D.C."]
     },
     {
         "id": 120,
         "question": "Where is the Statue of Liberty?",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "New York (Harbor)",
                         "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River)"
@@ -986,7 +1106,8 @@ const questionsData = [
     },
     {
         "id": 121,
-        "question": "",
+        "question": "Why does the flag have 13 stripes?",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "(Because there were) 13 original colonies",
                         "(Because the stripes) represent the original colonies"
@@ -994,7 +1115,8 @@ const questionsData = [
     },
     {
         "id": 122,
-        "question": "",
+        "question": "Who does the flag have 50 stars?",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "(Because there is) one star for each state",
                         "(Because) each star represents a state",
@@ -1004,16 +1126,19 @@ const questionsData = [
     {
         "id": 123,
         "question": "What is the name of the national anthem?",
+        "type": ["history", "symbols and holidays"],
         "answers": ["The Star-Spangled Banner"]
     },
     {
         "id": 124,
         "question": "The Nation's first motto was 'E Pluribus Unum'. What does that mean?",
+        "type": ["history", "symbols and holidays"],
         "answers": ["Out of many, one", "We all become one."]
     },
     {
         "id": 125,
         "question": "What is Independence Day?",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "A holiday to celebrate U.S. independence (from Britain)",
                         "The country's birthday"
@@ -1022,6 +1147,7 @@ const questionsData = [
     {
         "id": 126,
         "question": "Name three National U.S. Holidays.",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "New Year's Day",
                         "Martin Luther King, Jr. Day ",
@@ -1038,11 +1164,13 @@ const questionsData = [
     {
         "id": 127,
         "question": "What is Memorial Day?",
+        "type": ["history", "symbols and holidays"],
         "answers": ["A holiday to honor soldiers who died in military service."]
     },
     {
         "id": 128,
         "question": "What is Veterans Day?",
+        "type": ["history", "symbols and holidays"],
         "answers": [
                         "A holiday to honor people in the (U.S.) military",
                         "A holiday to honor people who have served (in the U.S. military)"
