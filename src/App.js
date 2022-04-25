@@ -5,7 +5,7 @@ import './App.css';
 // import { useState, useEffect } from "react";
 import { Outlet } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import Navbar from './Components/Navbar/Navbar';
+import NavBar from './Components/NavBar/NavBar';
 import questionsData from './Data/questions';
 // import Home from './Components/Home/Home';
 
@@ -21,7 +21,7 @@ function App() {
  
   return (
     <>
-    <Navbar />
+    <NavBar />
     <Outlet context={[questionsData, setQuestionsData]} />
     </>
   );

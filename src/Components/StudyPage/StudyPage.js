@@ -21,7 +21,7 @@ function StudyPage(){
     console.log("FilteredQuestions", filteredQuestions);
 
     const mappedQuestions = filteredQuestions.map((question)=>{
-        return(<QuestionCard key={question.id} question={question}/>)
+        return(<li><QuestionCard key={question.id} question={question}/></li>)
     })
 
     function handleFilter(e){
@@ -38,9 +38,6 @@ function StudyPage(){
         
         //If it has already been clicked
             //Remove it from the filterState array
-
-            
-
     }
     return(
         <>
@@ -56,8 +53,10 @@ function StudyPage(){
             <Button id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
             <Button id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
         </div>
-
-        {mappedQuestions}
+        <ol>
+            {mappedQuestions}
+        </ol>
+        
 
         <h4>Ready to start the Quiz? Hit the button below!</h4>
         <Button variant="light">Start Quiz</Button>
