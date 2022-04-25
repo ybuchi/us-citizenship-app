@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./StudyPage.css"
 import QuestionCard from "../QuestionCard/QuestionCard";
 import { Button } from "react-bootstrap";
 import { useOutletContext } from "react-router-dom";
@@ -41,17 +42,20 @@ function StudyPage(){
     }
     return(
         <>
-        <h1>Study Page</h1>
-
+        <header id="study-title">
+            <h1>Study Page</h1>
+            <h3>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h3>
+        </header>
+       
         <div id="study-filter">
             <h4>Filter by Question Type</h4>
-            <Button id="filter-history" name="history" onClick={handleFilter} variant="light">history</Button>
-            <Button id="filter-chistory" name="colonial history" onClick={handleFilter} variant="light">colonial history</Button>
-            <Button id="filter-eighteenhundreds" name="1800s" onClick={handleFilter} variant="light">1800s</Button>
-            <Button id="filter-recenth" name="recent history"onClick={handleFilter} variant="light">recent history</Button>
-            <Button id="filter-civics" name="civics" onClick={handleFilter} variant="light"> civcs</Button>
-            <Button id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
-            <Button id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
+            <Button className="fitler-btn" id="filter-history" name="history" onClick={handleFilter} variant="light">history</Button>
+            <Button className="fitler-btn" id="filter-chistory" name="colonial history" onClick={handleFilter} variant="light">colonial history</Button>
+            <Button className="fitler-btn" id="filter-eighteenhundreds" name="1800s" onClick={handleFilter} variant="light">1800s</Button>
+            <Button className="fitler-btn" id="filter-recenth" name="recent history"onClick={handleFilter} variant="light">recent history</Button>
+            <Button className="fitler-btn" id="filter-civics" name="civics" onClick={handleFilter} variant="light"> civcs</Button>
+            <Button className="fitler-btn" id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
+            <Button className="fitler-btn" id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
         </div>
         <ol>
             {mappedQuestions}

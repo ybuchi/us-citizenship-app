@@ -1,0 +1,39 @@
+#study-filter{
+    text-align: center;
+}
+#study-title{
+    text-align: center;
+    margin: 40px;
+}
+.fitler-btn{
+    margin: 10px;
+}
+
+#filter-history{
+    background-color: maroon;
+    color: white;
+}
+#filter-chistory{
+    background-color: brown;
+    color: white;
+}
+#filter-eighteenhundreds{
+    background-color: beige;
+}
+
+#filter-recenth{
+    background-color: lightblue;
+}
+
+#filter-civics{
+    background-color: teal;
+    color: white;
+}
+#filter-sandh{
+    background-color: salmon;
+    color: white;
+}
+#filter-flagged{
+    background-color: purple;
+    color: white;
+}

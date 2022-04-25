@@ -1,13 +1,7 @@
-import logo from './logo.svg';
 import { useEffect, useState } from 'react';
 import './App.css';
-// import { Link } from "react-router-dom";
-// import { useState, useEffect } from "react";
 import { Outlet } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 import NavBar from './Components/NavBar/NavBar';
-import questionsData from './Data/questions';
-// import Home from './Components/Home/Home';
 
 
 function App() {
