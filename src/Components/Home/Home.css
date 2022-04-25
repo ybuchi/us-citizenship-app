@@ -5,7 +5,12 @@
     border-radius: 5px;
     margin: 20px auto;
     position: relative;
+    transition: border-box .5s
 }
+.home-card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.8);
+}
+
 #title-header{
     margin: 90px 30px;
 }
