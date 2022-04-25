@@ -9,8 +9,11 @@ import Col from 'react-bootstrap/Col';
 function Home() {
   return (
     <div className="App">
+    <header id="title-header">
       <h1>Welcome to the US Citizenship Naturalization App</h1>
       <h3>The best place for you to practice for you naturalization test.</h3>
+    </header>
+      
       
       <Container>
           <Row>

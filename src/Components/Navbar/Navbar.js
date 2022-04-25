@@ -9,9 +9,9 @@ function NavBar(){
     return(
         <Navbar bg="light">
             <Container fluid>
-                <Nav.Link>Home</Nav.Link>
-                <Nav.Link>Study</Nav.Link>
-                <Nav.Link>Quiz</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/study">Study</Nav.Link>
+                <Nav.Link href="/quiz">Quiz</Nav.Link>
             </Container>
         </Navbar>
         
