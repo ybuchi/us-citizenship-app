@@ -44,11 +44,11 @@ function StudyPage(){
         <>
         <header id="study-title">
             <h1>Study Page</h1>
-            <h3>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h3>
+            <h4>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h4>
         </header>
        
         <div id="study-filter">
-            <h4>Filter by Question Type</h4>
+            <h4>Filter by Category</h4>
             <Button className="fitler-btn" id="filter-history" name="history" onClick={handleFilter} variant="light">history</Button>
             <Button className="fitler-btn" id="filter-chistory" name="colonial history" onClick={handleFilter} variant="light">colonial history</Button>
             <Button className="fitler-btn" id="filter-eighteenhundreds" name="1800s" onClick={handleFilter} variant="light">1800s</Button>
