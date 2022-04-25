@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 function NavBar(){
     return(
-        <Navbar bg="light">
+        <Navbar bg="light" fixed="top">
             <Container fluid>
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/study">Study</Nav.Link>

@@ -7,14 +7,17 @@ function QuestionCard( {question} ){
     const mappedQuestionAnswers = question.answers.map(answer=><li>{answer}</li>)
     return(
         <>
-        <div className="question-card">
-        <p>{question.question}</p>
-        <p><strong>Acceptable Answers:</strong></p>
-        <ul>
-            {mappedQuestionAnswers}
-        </ul>
-        <p><span style={{fontStyle: "italic"}}>Question Type:</span> {mappedQuestionTypes}</p>
-        </div>
+        <section className="question-card">
+            <header>
+                <h4>{question.question}</h4>
+            </header>
+            
+            <p><strong>Acceptable Answers:</strong></p>
+            <ul>
+                {mappedQuestionAnswers}
+            </ul>
+            <p><span style={{fontStyle: "italic"}}>Question Type:</span> {mappedQuestionTypes}</p>
+        </section>
         </>
     )
 }
