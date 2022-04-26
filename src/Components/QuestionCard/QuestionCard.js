@@ -14,7 +14,7 @@ function QuestionCard( {question} ){
     
     function handleIsFlagged(){
         // setButtonIsFlagged(!buttonIsFlagged)
-        const changedFlagValue = !buttonIsFlagged
+        const changedFlagValue = !question.isFlagged
         const configObj = {
             method: "PATCH",
             headers:{
@@ -34,7 +34,6 @@ function QuestionCard( {question} ){
                 }
             })
             setQuestionsData(updatedData);
-            setButtonIsFlagged(patchedQuestion.isFlagged)
         })
     }
     return(
@@ -42,7 +41,7 @@ function QuestionCard( {question} ){
         <section className="question-card">
             <header>
                 <h4>{question.question}</h4>
-                {buttonIsFlagged ? <Button onClick={handleIsFlagged} variant="light" className="flag-btn">Unflag</Button> : <Button variant="secondary" onClick={handleIsFlagged} className="flag-btn">Flag</Button>}
+                {question.isFlagged ? <Button onClick={handleIsFlagged} variant="light" className="flag-btn">Unflag</Button> : <Button variant="secondary" onClick={handleIsFlagged} className="flag-btn">Flag</Button>}
 
             </header>
             <hr></hr>

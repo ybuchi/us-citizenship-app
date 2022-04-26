@@ -11,7 +11,7 @@
         "Constitution-based federal republic",
         "Representative Democracy"
       ],
-      "isFlagged": true
+      "isFlagged": false
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
         "Defines the parts of the government",
         "Protects the rights of the people"
       ],
-      "isFlagged": false
+      "isFlagged": true
     },
     {
       "id": 4,
@@ -61,7 +61,7 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": false
+      "isFlagged": true
     },
     {
       "id": 6,
