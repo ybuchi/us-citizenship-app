@@ -10,6 +10,11 @@
     margin: 10px;
     transition: box-shadow .3s;
 }
+.filter-btn-clicked{
+    margin: 10px;
+    box-shadow: 0 0 11px rgba(33,33,33);
+    transition: box-shadow .3s;
+}
 .fitler-btn:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.8);
 }

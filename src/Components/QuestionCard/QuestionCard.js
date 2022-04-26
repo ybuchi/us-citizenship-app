@@ -11,6 +11,7 @@ function QuestionCard( {question} ){
             <header>
                 <h4>{question.question}</h4>
             </header>
+            <hr></hr>
             
             <p><strong>Acceptable Answers:</strong></p>
             <ul>

@@ -1076,7 +1076,7 @@
     {
         "id": 118,
         "question": "Name one example of an American innovation.",
-        "type": ["history", "recent history"],
+        "type": ["recent history"],
         "answers": [
                         "Light bulb",
                         "Automobile (cars, internal combustion engine)",
@@ -1090,13 +1090,13 @@
     {
         "id": 119,
         "question": "What is the capital of the United States?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": ["Washington, D.C."]
     },
     {
         "id": 120,
         "question": "Where is the Statue of Liberty?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "New York (Harbor)",
                         "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River)"
@@ -1105,7 +1105,7 @@
     {
         "id": 121,
         "question": "Why does the flag have 13 stripes?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "(Because there were) 13 original colonies",
                         "(Because the stripes) represent the original colonies"
@@ -1114,7 +1114,7 @@
     {
         "id": 122,
         "question": "Who does the flag have 50 stars?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "(Because there is) one star for each state",
                         "(Because) each star represents a state",
@@ -1124,19 +1124,19 @@
     {
         "id": 123,
         "question": "What is the name of the national anthem?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": ["The Star-Spangled Banner"]
     },
     {
         "id": 124,
         "question": "The Nation's first motto was 'E Pluribus Unum'. What does that mean?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": ["Out of many, one", "We all become one."]
     },
     {
         "id": 125,
         "question": "What is Independence Day?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "A holiday to celebrate U.S. independence (from Britain)",
                         "The country's birthday"
@@ -1145,7 +1145,7 @@
     {
         "id": 126,
         "question": "Name three National U.S. Holidays.",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "New Year's Day",
                         "Martin Luther King, Jr. Day ",
@@ -1162,13 +1162,13 @@
     {
         "id": 127,
         "question": "What is Memorial Day?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": ["A holiday to honor soldiers who died in military service."]
     },
     {
         "id": 128,
         "question": "What is Veterans Day?",
-        "type": ["history", "symbols and holidays"],
+        "type": ["symbols and holidays"],
         "answers": [
                         "A holiday to honor people in the (U.S.) military",
                         "A holiday to honor people who have served (in the U.S. military)"
