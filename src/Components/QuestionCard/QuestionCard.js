@@ -1,15 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import "./QuestionCard.css"
+import Button from 'react-bootstrap/Button';
+import { useOutletContext } from "react-router-dom";
 
 function QuestionCard( {question} ){
+    //States
+    const [buttonIsFlagged, setButtonIsFlagged] = useState(false)
+    const [questionsData, setQuestionsData] = useOutletContext();
 
-    const mappedQuestionTypes = question.type.map(type=><span className="type-label">{type}</span>)
+    //Mapped Elements
+    const mappedQuestionTypes = question.type.map(type=><span className="type-label"><strong>{type.toUpperCase()}</strong></span>)
     const mappedQuestionAnswers = question.answers.map(answer=><li>{answer}</li>)
+    
+    function handleIsFlagged(){
+        // setButtonIsFlagged(!buttonIsFlagged)
+        const changedFlagValue = !buttonIsFlagged
+        const configObj = {
+            method: "PATCH",
+            headers:{
+                "Content-Type": "application/json",
+                "Accept" : "application/json"
+            },
+            body: JSON.stringify({isFlagged: changedFlagValue})
+        }
+        fetch(`http://localhost:3000/questions/${question.id}`, configObj)
+        .then(res=> res.json())
+        .then(patchedQuestion => {
+            const updatedData = questionsData.map((question)=>{
+                if(question.id === patchedQuestion.id){
+                    return patchedQuestion
+                }else{
+                    return question
+                }
+            })
+            setQuestionsData(updatedData);
+            setButtonIsFlagged(patchedQuestion.isFlagged)
+        })
+    }
     return(
         <>
         <section className="question-card">
             <header>
                 <h4>{question.question}</h4>
+                {buttonIsFlagged ? <Button onClick={handleIsFlagged} variant="light" className="flag-btn">Unflag</Button> : <Button variant="secondary" onClick={handleIsFlagged} className="flag-btn">Flag</Button>}
+
             </header>
             <hr></hr>
             
@@ -17,7 +51,9 @@ function QuestionCard( {question} ){
             <ul>
                 {mappedQuestionAnswers}
             </ul>
-            <p><span style={{fontStyle: "italic"}}>Question Type:</span> {mappedQuestionTypes}</p>
+            <br/>
+            <hr></hr>
+            <p>{mappedQuestionTypes}</p>
         </section>
         </>
     )

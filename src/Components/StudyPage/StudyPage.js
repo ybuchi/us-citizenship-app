@@ -10,9 +10,11 @@ function StudyPage(){
     const [filterState, setFilterState] = useState([]);
 
     const filteredQuestions = questionsData.filter((question) => {
-       //For every question object, if its type contains any values in the filterState type, render it
+    //If our filterState is empty, then no filter is selected and we want to render everything
        if(filterState.length === 0){
            return question;
+       }else if(question.isFlagged && filterState.includes("flagged")){
+        return question
        }else if(question.type.some(typeValue => filterState.includes(typeValue))){
            return question;
        }else{
@@ -35,15 +37,13 @@ function StudyPage(){
             const newFilterState = filterState.filter(value => value !== e.target.name)
             setFilterState(newFilterState)
             e.target.className = e.target.className.replace("filter-btn-clicked","")
-        }else{
-            setFilterState(questionsData);
         }
     }
         
     return(
         <>
         <header id="study-title">
-            <h1>Study Page</h1>
+            <h1>Study Session</h1>
             <h4>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h4>
         </header>
        <hr></hr>
