@@ -10,18 +10,28 @@ function StudyPage(){
     const [filterState, setFilterState] = useState([]);
 
     const filteredQuestions = questionsData.filter((question) => {
+
+    //FILTER BUTTON LOGIC
+    //Remember "flagged" is not a type value so we can check it independently 
     //If our filterState is empty, then no filter is selected and we want to render everything
+    //If the filter state includes "flagged",
+    //Check whether the question isFlagged 
+        //If it is, return the question
+        //If it isn't, return false
+    //If the filter state does not inlude "flagged"
+    //Check whether the question type has a 
        if(filterState.length === 0){
            return question;
-       }else if(question.isFlagged && filterState.includes("flagged")){
-        return question
        }else if(question.type.some(typeValue => filterState.includes(typeValue))){
-           return question;
-       }else{
-           return false
+            if(filterState.includes("flagged") && question.isFlagged){
+                return question
+            }else if(!filterState.includes("flagged")){
+                return question
+            }else{
+                return false
+            }
        }
     })
-    console.log("FilteredQuestions", filteredQuestions);
 
     const mappedQuestions = filteredQuestions.map((question)=>{
         return(<li><QuestionCard key={question.id} question={question}/></li>)
