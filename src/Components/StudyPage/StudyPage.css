@@ -1,9 +1,17 @@
 #study-filter{
     text-align: center;
+    border: black 2px solid;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 40px;
+}
+#no-results{
+    font-style: italic;
+    text-align: center;
 }
 #study-title{
     text-align: center;
-    margin: 90px;
+    margin: 120px 90px 90px 90px;
     font-family: 'IBM Plex Serif', serif;
 }
 .fitler-btn{

@@ -40,7 +40,7 @@ function QuestionCard( {question} ){
         <>
         <section className="question-card">
             <header>
-                <h4>{question.question}</h4>
+                <h4 style={{paddingRight: "70px"}}>{question.question}</h4>
                 {question.isFlagged ? <Button onClick={handleIsFlagged} variant="light" className="flag-btn">Unflag</Button> : <Button variant="secondary" onClick={handleIsFlagged} className="flag-btn">Flag</Button>}
 
             </header>
