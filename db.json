@@ -179,7 +179,7 @@
         "Mayflower Compact",
         "Iroquois Great Law of Peace"
       ],
-      "isFlagged": false
+      "isFlagged": true
     },
     {
       "id": 15,
@@ -1613,7 +1613,7 @@
       "answers": [
         "Washington, D.C."
       ],
-      "isFlagged": false
+      "isFlagged": true
     },
     {
       "id": 120,

@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 function Home() {
   return (
     <div className="App">
-    <header id="title-header">
+    <header id="title-header" className="fade-in">
       <h1>Welcome to the US Citizenship Naturalization App</h1>
       <h3>The best place for you to practice for you naturalization test.</h3>
     </header>
@@ -18,7 +18,7 @@ function Home() {
       <Container>
           <Row>
               <Col sm={12} md={6}>
-                <div className="home-card" id="study-card">
+                <div className="home-card fade-in" style={{animationDelay: "0.5s"}} id="study-card">
                     <div className="home-card-content">
                         <h1>Study Session</h1>
                         <p>This is the place you can study and learn the test questions and their answers.</p>
@@ -29,7 +29,7 @@ function Home() {
                 </div>
               </Col>
               <Col sm={12} md={6}>
-                <div className="home-card" id="quiz-card">
+                <div className="home-card fade-in" style={{animationDelay: "0.7s"}} id="quiz-card">
                     <div className="home-card-content">
                         <h1>Quiz Session</h1>
                         <p>Think you have what it takes to pass the test? Quiz yourself here!</p>

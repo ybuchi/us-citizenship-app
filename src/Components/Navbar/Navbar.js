@@ -10,8 +10,8 @@ function NavBar(){
         <Navbar bg="light" fixed="top" className="global-nav">
             <Container fluid>
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/study">Study</Nav.Link>
-                <Nav.Link href="/quiz">Quiz</Nav.Link>
+                <Nav.Link href="/study">Study Mode</Nav.Link>
+                <Nav.Link href="/quiz">Quiz Mode</Nav.Link>
             </Container>
         </Navbar>
         

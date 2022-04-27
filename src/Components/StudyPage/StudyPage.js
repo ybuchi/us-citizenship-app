@@ -56,8 +56,11 @@ function StudyPage(){
     return(
         <>
         <header id="study-title">
-            <h1>Study Session</h1>
+            <h1>Study Mode</h1>
             <h4>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h4>
+            <hr></hr>
+            <h5>Think you got what it takes to become a naturalized American citizen? Test yourself!</h5>
+            <Button href="/quiz" variant="light">Start Quiz</Button>
         </header>
 
         <div id="study-filter">
@@ -69,14 +72,18 @@ function StudyPage(){
             <Button className="fitler-btn" id="filter-civics" name="civics" onClick={handleFilter} variant="light"> civics</Button>
             <Button className="fitler-btn" id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
             <Button className="fitler-btn" id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
+            <article>
+                <p>Use the filters above to review questions by category.</p>
+                <p>Use the <strong>Flag</strong> button on the top right corner of each question card to mark questions you need to study.</p>
+            </article>
         </div>
+        
 
         <ul style={{listStyle: "none", padding: "0"}}>
             {mappedQuestions.length === 0 ? <h3 id="no-results">No Results Found.</h3> : mappedQuestions}
         </ul>
 
-        <h4>Ready to start the Quiz? Hit the button below!</h4>
-        <Button variant="light">Start Quiz</Button>
+        
 
         </>
     )
