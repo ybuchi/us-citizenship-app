@@ -10,26 +10,28 @@ function StudyPage(){
     const [filterState, setFilterState] = useState([]);
 
     const filteredQuestions = questionsData.filter((question) => {
-
+        
+        const filterIncludesQuestionType = question.type.some(typeValue =>filterState.includes(typeValue))
+        const flaggedInFilter = filterState.includes("flagged")
     //FILTER BUTTON LOGIC
-    //Remember "flagged" is not a type value so we can check it independently 
-    //If our filterState is empty, then no filter is selected and we want to render everything
-    //If the filter state includes "flagged",
-    //Check whether the question isFlagged 
-        //If it is, return the question
-        //If it isn't, return false
-    //If the filter state does not inlude "flagged"
-    //Check whether the question type has a 
+
        if(filterState.length === 0){
            return question;
-       }else if(question.type.some(typeValue => filterState.includes(typeValue))){
-            if(filterState.includes("flagged") && question.isFlagged){
-                return question
-            }else if(!filterState.includes("flagged")){
-                return question
-            }else{
-                return false
-            }
+        //Else If the question type is included in the filter state
+       }else if(filterState.length === 1 && flaggedInFilter){
+           if(question.isFlagged){
+            return question
+           }else{
+               return false
+           }
+       }else if (flaggedInFilter && filterIncludesQuestionType){
+           if(question.isFlagged){
+               return question
+           }else{
+               return false
+           }
+       }else if (!flaggedInFilter && filterIncludesQuestionType){
+           return question
        }
     })
 
@@ -38,6 +40,7 @@ function StudyPage(){
     })
 
     function handleFilter(e){
+        //A function that handles the changes in the filterState.
         console.log(e.target.id)
         // Track whether the button is clicked or not (check if the filter state is included in the filterState array)
         if(!filterState.includes(e.target.name)){
