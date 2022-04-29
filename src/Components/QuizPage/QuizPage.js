@@ -1,9 +1,17 @@
 import React from "react"
+import "./QuizPage.css"
+import { Container, Col, Row } from "react-bootstrap";
+import { Outlet, Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
-function Quiz(){
+function QuizPage(){
+
     return(
-        <h1>Quiz</h1>
+        <>
+        <Outlet/>
+        </>
+        
     )
 }
 
-export default Quiz;
+export default QuizPage;

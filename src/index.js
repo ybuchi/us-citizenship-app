@@ -14,6 +14,8 @@ import reportWebVitals from './reportWebVitals';
 import QuizPage from './Components/QuizPage/QuizPage';
 import StudyPage from './Components/StudyPage/StudyPage';
 import Home from './Components/Home/Home';
+import QuizMenu from './Components/QuizMenu/QuizMenu';
+import TwentyQuestions from './Components/TwentyQuestions/TwentyQuestions';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -25,7 +27,10 @@ root.render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />}/>
         <Route path="study" element={<StudyPage/>}/>
-        <Route path="quiz" element={<QuizPage />}/>
+        <Route path="quiz" element={<QuizPage />}>
+          <Route index element={<QuizMenu />}/>
+          <Route path="twenty-questions" element={<TwentyQuestions />}/>
+        </Route>
       </Route>
     </Routes>
   </BrowserRouter>
