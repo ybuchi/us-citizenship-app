@@ -3,6 +3,9 @@
     margin: 120px 90px 90px 90px;
     font-family: 'IBM Plex Serif', serif;
 }
+#quiz-title h1{
+    text-shadow: 2px 2px lightgray;
+}
 .quiz-type-card{
     border: 1px black solid;
     border-radius: 5px;

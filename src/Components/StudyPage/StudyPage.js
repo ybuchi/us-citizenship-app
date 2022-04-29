@@ -100,6 +100,7 @@ function StudyPage(){
             <article>
                 <p>Use the filters above to review questions by category.</p>
                 <p>Use the <strong>Flag</strong> button on the top right corner of each question card to mark questions you need to study.</p>
+                <p>If you are 65 or older and have lived in the United States as a lawful permanent resident for 20 or more years, you only have to study the questions you will find using the <strong>special criteria</strong> filter above.</p>
             </article>
         </div>
         
