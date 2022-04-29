@@ -9,29 +9,53 @@ function StudyPage(){
     const [questionsData, setQuestionsData] = useOutletContext();
     const [filterState, setFilterState] = useState([]);
 
+    //"filteredQuestions" currently takes care of all the filters EXCEPT the Special Criteria Filter, which we handle in a variable below
     const filteredQuestions = questionsData.filter((question) => {
-        
+        console.log("Is Special Criteria", question.isSpecialCriteria)
         const filterIncludesQuestionType = question.type.some(typeValue =>filterState.includes(typeValue))
         const flaggedInFilter = filterState.includes("flagged")
     //FILTER BUTTON LOGIC
-
+        //If the filter state is empty, return everything
        if(filterState.length === 0){
            return question;
-        //Else If the question type is included in the filter state
-       }else if(filterState.length === 1 && flaggedInFilter){
-           if(question.isFlagged){
+        //If the filter state does not include the Special Criteria
+       }else if(!filterState.includes("special-criteria")){
+
+        if(filterState.length === 1 && flaggedInFilter){
+            if(question.isFlagged){
+             return question
+            }else{
+                return false
+            }
+        }else if (flaggedInFilter && filterIncludesQuestionType){
+            if(question.isFlagged){
+                return question
+            }else{
+                return false
+            }
+        }else if (!flaggedInFilter && filterIncludesQuestionType){
             return question
-           }else{
-               return false
-           }
-       }else if (flaggedInFilter && filterIncludesQuestionType){
-           if(question.isFlagged){
-               return question
-           }else{
-               return false
-           }
-       }else if (!flaggedInFilter && filterIncludesQuestionType){
-           return question
+        }
+
+       }else if (filterState.includes("special-criteria")){
+
+        if(filterState.length === 2 && flaggedInFilter){
+            if(question.isFlagged && question.isSpecialCriteria){
+             return question
+            }else{
+                return false
+            }
+        }else if (flaggedInFilter && filterIncludesQuestionType){
+            if(question.isFlagged && question.isSpecialCriteria){
+                return question
+            }else{
+                return false
+            }
+        }else if (!flaggedInFilter && filterIncludesQuestionType){
+            return question.isSpecialCriteria ? question : false 
+        }else{
+            return question.isSpecialCriteria ? question : false
+        }
        }
     })
 
@@ -71,6 +95,7 @@ function StudyPage(){
             <Button className="fitler-btn" id="filter-recenth" name="recent history"onClick={handleFilter} variant="light">recent history</Button>
             <Button className="fitler-btn" id="filter-civics" name="civics" onClick={handleFilter} variant="light"> civics</Button>
             <Button className="fitler-btn" id="filter-sandh" name="symbols and holidays" onClick={handleFilter} variant="light">symbols and holidays</Button>
+            <Button className="fitler-btn" id="filter-sc" name="special-criteria" onClick={handleFilter} variant="light">special criteria</Button>
             <Button className="fitler-btn" id="filter-flagged" name="flagged" onClick={handleFilter} variant="light">flagged</Button>
             <article>
                 <p>Use the filters above to review questions by category.</p>

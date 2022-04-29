@@ -11,7 +11,8 @@
         "Constitution-based federal republic",
         "Representative Democracy"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "answers": [
         "The U.S. Constitution"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 3,
@@ -35,7 +37,8 @@
         "Defines the parts of the government",
         "Protects the rights of the people"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 4,
@@ -50,7 +53,8 @@
         "People should govern themselves",
         "Example of social contract"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 5,
@@ -61,7 +65,8 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 6,
@@ -73,7 +78,8 @@
         "(The basic) rights of all Americans",
         "(The basic) rights of people living in the United States"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 7,
@@ -84,7 +90,8 @@
       "answers": [
         27
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 8,
@@ -98,7 +105,8 @@
         "It identifies inherent rights.",
         "It identifies individual freedoms."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 9,
@@ -109,7 +117,8 @@
       "answers": [
         "Declaration of Independence"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 10,
@@ -124,7 +133,8 @@
         "Natural rights",
         "Limited government"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 11,
@@ -135,7 +145,8 @@
       "answers": [
         "Declaration of Independence"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 12,
@@ -147,7 +158,8 @@
         "Capitalism",
         "Free market economy"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 13,
@@ -161,7 +173,8 @@
         "Government must obey the law.",
         "No one is above the law"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 14,
@@ -179,7 +192,8 @@
         "Mayflower Compact",
         "Iroquois Great Law of Peace"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 15,
@@ -192,7 +206,8 @@
         "Checks and balances.",
         "Separation of power."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 16,
@@ -204,7 +219,8 @@
         "Legislative, executive, judicial.",
         "Congress, the president, and the courts"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 17,
@@ -215,7 +231,8 @@
       "answers": [
         "Executive branch"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 18,
@@ -228,7 +245,8 @@
         "(U.S. or national) legislature",
         "Legislative branch"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 19,
@@ -239,7 +257,8 @@
       "answers": [
         "Senate and the House (of Representatives)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 20,
@@ -252,7 +271,8 @@
         "Declares war.",
         "Makes the federal budget."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 21,
@@ -263,7 +283,8 @@
       "answers": [
         "One hundred (100)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 22,
@@ -274,7 +295,8 @@
       "answers": [
         "Six (6) years"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 23,
@@ -286,7 +308,8 @@
         "[NY] Kirsten Gillibrand",
         "[NY] Charles E. Schumer"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 24,
@@ -297,7 +320,8 @@
       "answers": [
         "Four hundred thirty-five (435"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 25,
@@ -308,7 +332,8 @@
       "answers": [
         "Two (2) years."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 26,
@@ -319,7 +344,8 @@
       "answers": [
         "To more closely follow public opinion."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 27,
@@ -330,7 +356,8 @@
       "answers": [
         "Two (2)."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 28,
@@ -342,7 +369,8 @@
         "Equal representation (for small states)",
         "The Great Compromise (Connecticut Compromise)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 29,
@@ -353,7 +381,8 @@
       "answers": [
         "[Queens, NY] Grace Meng"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 30,
@@ -364,7 +393,8 @@
       "answers": [
         "Nancy Pelosi"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 31,
@@ -376,7 +406,8 @@
         "Citizens of their state",
         "People of their state"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 32,
@@ -387,7 +418,8 @@
       "answers": [
         "Citizens from their state"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 33,
@@ -401,7 +433,8 @@
         "People from their (congressional) district.",
         "People in their district."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 34,
@@ -412,7 +445,8 @@
       "answers": [
         "Citizens from their congressional district."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 35,
@@ -425,7 +459,8 @@
         "Because they have more people.",
         "Because some states have more people."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 36,
@@ -436,7 +471,8 @@
       "answers": [
         "Four (4) years"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 37,
@@ -448,7 +484,8 @@
         "(Because of the) 22nd Amendment.",
         "To keep the president from becoming too powerful."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 38,
@@ -459,7 +496,8 @@
       "answers": [
         "Joe Biden"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 39,
@@ -470,7 +508,8 @@
       "answers": [
         "Kamala Harris"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 40,
@@ -481,7 +520,8 @@
       "answers": [
         "The vice-president"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 41,
@@ -496,7 +536,8 @@
         "Commander in Chief (of the military).",
         "Chief diplomat."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 42,
@@ -507,7 +548,8 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 43,
@@ -518,7 +560,8 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 44,
@@ -529,7 +572,8 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 45,
@@ -540,7 +584,8 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 46,
@@ -553,7 +598,8 @@
         "Cabinet",
         "Federal departments and agencies"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 47,
@@ -564,7 +610,8 @@
       "answers": [
         "Advises the president (of the United States)."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 48,
@@ -590,7 +637,8 @@
         "Secretary of Veteran Affairs",
         "Vice President (of the United States)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 49,
@@ -602,7 +650,8 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 50,
@@ -614,7 +663,8 @@
         "Supreme Court",
         "Federal Courts"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 51,
@@ -628,7 +678,8 @@
         "Resolves disputes (disagreements) about the law.",
         "Decides if a law goes against the (U.S.) Constitution."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 52,
@@ -639,7 +690,8 @@
       "answers": [
         "The Supreme Court"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 53,
@@ -650,7 +702,8 @@
       "answers": [
         "Nine (9)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 54,
@@ -661,7 +714,8 @@
       "answers": [
         "Five (5)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 55,
@@ -674,7 +728,8 @@
         "Lifetime appointment.",
         "(Until) retirement."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 56,
@@ -686,7 +741,8 @@
         "To be independent (of politics).",
         "To limit outside (political) influence."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 57,
@@ -697,7 +753,8 @@
       "answers": [
         "John Roberts"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 58,
@@ -713,7 +770,8 @@
         "Make treaties",
         "Set foreign policy"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 59,
@@ -728,7 +786,8 @@
         "Give a driver�s license",
         "Approve zoning and land use"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 60,
@@ -739,7 +798,8 @@
       "answers": [
         "(It states that the) powers not given to the federal government belong to the states or to the people."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 61,
@@ -750,7 +810,8 @@
       "answers": [
         "[NY] Kathy Hochul"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 62,
@@ -761,7 +822,8 @@
       "answers": [
         "[NY] Albany"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 63,
@@ -775,7 +837,8 @@
         "Any citizen can vote. (Women and men can vote.)",
         "A male citizen of any race (can vote)."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 64,
@@ -788,7 +851,8 @@
         "Citizens of the United States",
         "U.S. citizens"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 65,
@@ -804,7 +868,8 @@
         "Freedom of religion",
         "The right to bear arms"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 66,
@@ -816,7 +881,8 @@
         "The United States",
         "The flag"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 67,
@@ -832,7 +898,8 @@
         "Serve (help, do important work for) the nation (if needed)",
         "Be loyal to the United States"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 68,
@@ -845,7 +912,8 @@
         "Derive citizenship",
         "Be born in the United States"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 69,
@@ -865,7 +933,8 @@
         "Support or oppose an issue or policy",
         "Write to a newspaper"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 70,
@@ -881,7 +950,8 @@
         "Run for office",
         "Work for local, state, or federal government"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 71,
@@ -895,7 +965,8 @@
         "Required by the (U.S.) Constitution (16th Amendment)",
         "Civic duty"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 72,
@@ -908,7 +979,8 @@
         "Civic duty",
         "Makes the draft fair, if needed"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 73,
@@ -924,7 +996,8 @@
         "Economic opportunity",
         "Escape persecution"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 74,
@@ -937,7 +1010,8 @@
         "American Indians",
         "Native Americans"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 75,
@@ -950,7 +1024,8 @@
         "Africans",
         "People from Africa"
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 76,
@@ -964,7 +1039,8 @@
         "The (American) Revolutionary War",
         "War for (American) Independence"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 77,
@@ -985,7 +1061,8 @@
         "Townshend Acts",
         "Intolerable (Coercive) Acts"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 78,
@@ -997,7 +1074,8 @@
       "answers": [
         "(Thomas) Jefferson"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 79,
@@ -1010,7 +1088,8 @@
       "answers": [
         "July 4th, 1776"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 80,
@@ -1027,7 +1106,8 @@
         "Valley Forge (Encampment)",
         "(Battle of) Yorktown (British surrender at Yorktown)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 81,
@@ -1051,7 +1131,8 @@
         "South Carolina",
         "Georgia"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 82,
@@ -1063,7 +1144,8 @@
       "answers": [
         "(U.S.)Consitution"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 83,
@@ -1078,7 +1160,8 @@
         "(John) Jay",
         "Publius"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 84,
@@ -1091,7 +1174,8 @@
         "They helped people understand the (U.S.) Constitution.",
         "They supported passing the (U.S.) Constitution."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 85,
@@ -1107,7 +1191,8 @@
         "Inventor",
         "U.S. diplomat"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 86,
@@ -1122,7 +1207,8 @@
         "General of the Continental Army",
         "President of the Constitutional Convention"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 87,
@@ -1139,7 +1225,8 @@
         "Founded the University of Virginia",
         "Writer of the Virginia Statute on Religious Freedom"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 88,
@@ -1154,7 +1241,8 @@
         "President during the War of 1812",
         "One of the writers of the Federalist Papers"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 89,
@@ -1170,7 +1258,8 @@
         "Aide to General George Washington",
         "Member of the Continental Congress"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 90,
@@ -1183,7 +1272,8 @@
         "Louisiana Territory",
         "Louisiana"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 91,
@@ -1198,7 +1288,8 @@
         "Civil War",
         "Spanish-American War"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 92,
@@ -1210,7 +1301,8 @@
       "answers": [
         "The Civil War"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 93,
@@ -1229,7 +1321,8 @@
         "(Battle of) Antietam/Sharpsburg",
         "Lincoln was assassinated."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 94,
@@ -1245,7 +1338,8 @@
         "16th president of the United States",
         "Delivered the Gettysburg Address"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 95,
@@ -1260,7 +1354,8 @@
         "Freed slaves in the Confederate states",
         "Freed slaves in most Southern states"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 96,
@@ -1272,7 +1367,8 @@
       "answers": [
         "The Civil War"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 97,
@@ -1284,7 +1380,8 @@
       "answers": [
         "14th Amendment"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 98,
@@ -1299,7 +1396,8 @@
         "(With the) 15th Amendment",
         "1870"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 99,
@@ -1316,7 +1414,8 @@
         "Lucretia Mott",
         "Lucy Stone"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 100,
@@ -1332,7 +1431,8 @@
         "Vietnam War",
         "(Persian) Gulf War"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 101,
@@ -1346,7 +1446,8 @@
         "To support the Allied Powers (England, France, Italy, and Russia).",
         "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 102,
@@ -1360,7 +1461,8 @@
         "After World War I",
         "(With the) 19th Amendment"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 103,
@@ -1372,7 +1474,8 @@
       "answers": [
         "Longest economic recession in modern history"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 104,
@@ -1385,7 +1488,8 @@
         "The Great Crash (1929)",
         "Stock market crash of 1929"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 105,
@@ -1397,7 +1501,8 @@
       "answers": [
         "(Franklin D.) Roosevelt"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 106,
@@ -1412,7 +1517,8 @@
         "To support the Allied Powers (England, France, and Russia)",
         "To oppose the Axis Powers (Germany, Italy, and Japan)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 107,
@@ -1427,7 +1533,8 @@
         "34th president of the United States",
         "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 108,
@@ -1441,7 +1548,8 @@
         "USSR",
         "Russia"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 109,
@@ -1454,7 +1562,8 @@
         "Communism",
         "Nuclear war"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 110,
@@ -1466,7 +1575,8 @@
       "answers": [
         "To stop the spread of communism."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 111,
@@ -1478,7 +1588,8 @@
       "answers": [
         "To stop the spread of communism."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 112,
@@ -1490,7 +1601,8 @@
       "answers": [
         "Fought to end racial discrimination."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 113,
@@ -1504,7 +1616,8 @@
         "Worked for equality for all Americans",
         "Worked to ensure that people would 'not be judged by the color of their skin, but by the content of their character'"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 114,
@@ -1516,7 +1629,8 @@
       "answers": [
         "To force the Iraqi military from Kuwait."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 115,
@@ -1531,7 +1645,8 @@
         "Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia.",
         "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 116,
@@ -1545,7 +1660,8 @@
         "War in Afghanistan",
         "War in Iraq"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 117,
@@ -1585,7 +1701,8 @@
         "Tuscarora",
         "For a complete list of tribes, please visit bia.gov."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 118,
@@ -1602,7 +1719,8 @@
         "Landing on the moon",
         "Integrated circuit (IC)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 119,
@@ -1613,7 +1731,8 @@
       "answers": [
         "Washington, D.C."
       ],
-      "isFlagged": true
+      "isFlagged": true,
+      "isSpecialCriteria": false
     },
     {
       "id": 120,
@@ -1625,7 +1744,8 @@
         "New York (Harbor)",
         "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 121,
@@ -1637,7 +1757,8 @@
         "(Because there were) 13 original colonies",
         "(Because the stripes) represent the original colonies"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 122,
@@ -1650,7 +1771,8 @@
         "(Because) each star represents a state",
         "(Because there are) 50 states"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 123,
@@ -1661,7 +1783,8 @@
       "answers": [
         "The Star-Spangled Banner"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 124,
@@ -1673,7 +1796,8 @@
         "Out of many, one",
         "We all become one."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 125,
@@ -1685,7 +1809,8 @@
         "A holiday to celebrate U.S. independence (from Britain)",
         "The country's birthday"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 126,
@@ -1705,7 +1830,8 @@
         "Thanksgiving Day",
         "Christmas Day"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": true
     },
     {
       "id": 127,
@@ -1716,7 +1842,8 @@
       "answers": [
         "A holiday to honor soldiers who died in military service."
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     },
     {
       "id": 128,
@@ -1728,7 +1855,8 @@
         "A holiday to honor people in the (U.S.) military",
         "A holiday to honor people who have served (in the U.S. military)"
       ],
-      "isFlagged": false
+      "isFlagged": false,
+      "isSpecialCriteria": false
     }
   ]
 }
