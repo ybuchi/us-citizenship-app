@@ -44,9 +44,11 @@ Users have the option to "flag" a question. This can be used to mark questions t
 
 ### Quiz Mode
 
-Version 1.0 of this application offers a single Quiz mode that takes a random subset of 20 out of the 128 possible questions and tests the user on only those questions. 
+Version 1.0 of this application offers a single Quiz mode that takes a random subset of 20 out of the 128 possible questions and tests the user on only those questions. More quiz modes to come!
 
-If a user gets 12 questions correct or more, as per the actual naturalization test, they "pass" the Naturalize quiz!
+#### **1. 20 Questions**
+
+This quiz mode generates a set of 20 questions to mimic the interview setting. If the user answers 12 of them correctly, then they "pass" the quiz. Questions that are answered wrong are automatically flagged so that the user can easily review them in the Study Mode of the app. 
 
 ***
 

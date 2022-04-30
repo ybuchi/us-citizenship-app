@@ -11,7 +11,7 @@
         "Constitution-based federal republic",
         "Representative Democracy"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -1731,7 +1731,7 @@
       "answers": [
         "Washington, D.C."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {

@@ -13,6 +13,9 @@
     margin: 20px;
     text-align: center;
 }
+.quiz-type-card h3{
+    text-shadow: 2px 2px lightgray;
+}
 .quiz-type-card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.8);
 }

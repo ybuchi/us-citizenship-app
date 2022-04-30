@@ -4,6 +4,12 @@ import { Col, Row, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
 function QuizMenu(){
+    // Split array of questions into thematic arrays 
+    // const historyArray 
+    //Generate list of random numbers with math floor
+    //Make 20 choices and push them into the array
+    //Map over array and display them in the DOM
+
     return(
         <>
         <div id="quiz-title">
