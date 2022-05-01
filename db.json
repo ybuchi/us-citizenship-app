@@ -37,7 +37,7 @@
         "Defines the parts of the government",
         "Protects the rights of the people"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -65,7 +65,7 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -90,7 +90,7 @@
       "answers": [
         27
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true
     },
     {
@@ -105,7 +105,7 @@
         "It identifies inherent rights.",
         "It identifies individual freedoms."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -158,7 +158,7 @@
         "Capitalism",
         "Free market economy"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true
     },
     {
@@ -173,7 +173,7 @@
         "Government must obey the law.",
         "No one is above the law"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -231,7 +231,7 @@
       "answers": [
         "Executive branch"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -271,7 +271,7 @@
         "Declares war.",
         "Makes the federal budget."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true
     },
     {
@@ -332,7 +332,7 @@
       "answers": [
         "Two (2) years."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -445,7 +445,7 @@
       "answers": [
         "Citizens from their congressional district."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -484,7 +484,7 @@
         "(Because of the) 22nd Amendment.",
         "To keep the president from becoming too powerful."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -520,7 +520,7 @@
       "answers": [
         "The vice-president"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -536,7 +536,7 @@
         "Commander in Chief (of the military).",
         "Chief diplomat."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -560,7 +560,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -663,7 +663,7 @@
         "Supreme Court",
         "Federal Courts"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -702,7 +702,7 @@
       "answers": [
         "Nine (9)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -714,7 +714,7 @@
       "answers": [
         "Five (5)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -753,7 +753,7 @@
       "answers": [
         "John Roberts"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -1701,7 +1701,7 @@
         "Tuscarora",
         "For a complete list of tribes, please visit bia.gov."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {

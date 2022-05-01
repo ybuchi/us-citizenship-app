@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./QuizQuestionCard.css";
 import Button  from "react-bootstrap/Button";
 import ResultsCard from "../ResultsCard/ResultsCard";
@@ -7,12 +7,14 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 // A component that can be recycle for most/all Quiz modes
 
 function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
+    const [answer, setAnswer] = useState("")
     //A function that verifies the answer
     function verifyAnswer(answer){
-        console.log(question.id)
+
         //If the answer is correct
-        //Set a state in the TwentyQuestions page that tracks score
+        //checking the array of possible answers. If what the user typed matches a value in the answers array:
         if (question.answers.includes(answer)){
+            //Set a state in the TwentyQuestions page that tracks score
             setScore({...score, correct_answers: ++score.correct_answers})
         //If the answer is incorrect
         }else{
@@ -45,9 +47,11 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
         }else{
             const nextQuestion = ++currentQuestion
             //Check answerf
-            verifyAnswer(answer)
-            setCurrentQuestion(nextQuestion)
+            verifyAnswer(answer);
+            setCurrentQuestion(nextQuestion);
+        
         }
+        
     }
     return(
         <div className="quiz-question-card">
@@ -56,7 +60,9 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
                                                               setQuizIsFinished={setQuizIsFinished}
                                                               quizIsFinished={quizIsFinished}
                                                               question={question}
-                                                              handleNextQuestion={handleNextQuestion}/>}
+                                                              handleNextQuestion={handleNextQuestion}
+                                                              answer = {answer}
+                                                              setAnswer = {setAnswer}/>}
              <p>{currentQuestion + 1} / 20</p>
         </div>
     )

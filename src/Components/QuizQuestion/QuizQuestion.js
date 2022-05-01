@@ -3,8 +3,8 @@ import "./QuizQuestion.css"
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
 
-function QuizQuestion({ question, handleNextQuestion}){
-    const [answer, setAnswer] = useState("")
+function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
+    
     function handleTypingChange(e){
         const current_value = e.target.value;
         setAnswer(current_value);
