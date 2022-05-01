@@ -3,3 +3,8 @@
     margin: 120px 90px 90px 90px;
     font-family: 'IBM Plex Serif', serif;
 }
+
+.quiz-container{
+    position: relative;
+    min-height: 200px;
+}
