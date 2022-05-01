@@ -6,9 +6,20 @@ import QuizQuestionCard from "../QuizQuestionCard/QuizQuestionsCard";
 
 function TwentyQuestions(){
     const [questionsData] = useOutletContext();
+    //A state that tracks which question is currently being displayed.
     const [currentQuestion, setCurrentQuestion] = useState(0);
+
+    //A state that tracks whether the user has completed all 20 questions
     const [quizIsFinished, setQuizIsFinished] = useState(false);
+
+    //A state that receives the thematic array // 
     const [quizQuestions, setQuizQuestions] = useState([]);
+
+    //A state that tracks the score
+    const [score, setScore] = useState({
+        correct_answers: 0,
+        incorrect_answers: 0
+    })
 
    
 
@@ -72,7 +83,9 @@ function TwentyQuestions(){
                                             currentQuestion={currentQuestion} 
                                             setCurrentQuestion={setCurrentQuestion}
                                             setQuizIsFinished={setQuizIsFinished}
-                                            quizIsFinished={quizIsFinished}/> }
+                                            quizIsFinished={quizIsFinished}
+                                            score={score}
+                                            setScore={setScore}/> }
         </div>
         </>
     )
