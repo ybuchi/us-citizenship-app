@@ -14,9 +14,9 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
         //If the answer is correct
         //checking the array of possible answers. If what the user typed matches a value in the answers array:
         if (question.answers.includes(answer)){
-            //Set a state in the TwentyQuestions page that tracks score
+            //Update the correct_answers in the Score state
             setScore({...score, correct_answers: ++score.correct_answers})
-        //If the answer is incorrect
+        //If the answer is incorrect, make a fetch call to flag the question
         }else{
             console.log("QuestionID", question.id)
             const configObj = {
@@ -51,6 +51,7 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
             setCurrentQuestion(nextQuestion);
         
         }
+        setAnswer("");
         
     }
     return(

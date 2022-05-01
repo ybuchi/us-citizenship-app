@@ -23,7 +23,7 @@
       "answers": [
         "The U.S. Constitution"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -37,7 +37,7 @@
         "Defines the parts of the government",
         "Protects the rights of the people"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -53,7 +53,7 @@
         "People should govern themselves",
         "Example of social contract"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -65,7 +65,7 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -90,7 +90,7 @@
       "answers": [
         27
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -145,7 +145,7 @@
       "answers": [
         "Declaration of Independence"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false
     },
     {
@@ -158,7 +158,7 @@
         "Capitalism",
         "Free market economy"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -173,7 +173,7 @@
         "Government must obey the law.",
         "No one is above the law"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -192,7 +192,7 @@
         "Mayflower Compact",
         "Iroquois Great Law of Peace"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -206,7 +206,7 @@
         "Checks and balances.",
         "Separation of power."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -231,7 +231,7 @@
       "answers": [
         "Executive branch"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -271,7 +271,7 @@
         "Declares war.",
         "Makes the federal budget."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -283,7 +283,7 @@
       "answers": [
         "One hundred (100)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -320,7 +320,7 @@
       "answers": [
         "Four hundred thirty-five (435"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -332,7 +332,7 @@
       "answers": [
         "Two (2) years."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -356,7 +356,7 @@
       "answers": [
         "Two (2)."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -406,7 +406,7 @@
         "Citizens of their state",
         "People of their state"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -445,7 +445,7 @@
       "answers": [
         "Citizens from their congressional district."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -484,7 +484,7 @@
         "(Because of the) 22nd Amendment.",
         "To keep the president from becoming too powerful."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -496,7 +496,7 @@
       "answers": [
         "Joe Biden"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -508,7 +508,7 @@
       "answers": [
         "Kamala Harris"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -520,7 +520,7 @@
       "answers": [
         "The vice-president"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -536,7 +536,7 @@
         "Commander in Chief (of the military).",
         "Chief diplomat."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -548,7 +548,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -560,7 +560,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -584,7 +584,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -598,7 +598,7 @@
         "Cabinet",
         "Federal departments and agencies"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -610,7 +610,7 @@
       "answers": [
         "Advises the president (of the United States)."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -637,7 +637,7 @@
         "Secretary of Veteran Affairs",
         "Vice President (of the United States)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -663,7 +663,7 @@
         "Supreme Court",
         "Federal Courts"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -678,7 +678,7 @@
         "Resolves disputes (disagreements) about the law.",
         "Decides if a law goes against the (U.S.) Constitution."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -690,7 +690,7 @@
       "answers": [
         "The Supreme Court"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true
     },
     {
@@ -702,7 +702,7 @@
       "answers": [
         "Nine (9)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -714,7 +714,7 @@
       "answers": [
         "Five (5)"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -741,7 +741,7 @@
         "To be independent (of politics).",
         "To limit outside (political) influence."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -753,7 +753,7 @@
       "answers": [
         "John Roberts"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -810,7 +810,7 @@
       "answers": [
         "[NY] Kathy Hochul"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true
     },
     {
@@ -851,7 +851,7 @@
         "Citizens of the United States",
         "U.S. citizens"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -898,7 +898,7 @@
         "Serve (help, do important work for) the nation (if needed)",
         "Be loyal to the United States"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
@@ -1701,7 +1701,7 @@
         "Tuscarora",
         "For a complete list of tribes, please visit bia.gov."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false
     },
     {
