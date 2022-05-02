@@ -6,7 +6,7 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 
 // A component that can be recycle for most/all Quiz modes
 
-function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
+function QuizQuestionCard({ question, possibleAnswers, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
     const [answer, setAnswer] = useState("")
     //A function that verifies the answer
     function verifyAnswer(answer){

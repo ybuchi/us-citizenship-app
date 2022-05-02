@@ -1,37 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./QuizQuestion.css"
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
 import ToggleButton from 'react-bootstrap/ToggleButton';
+import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
+function QuizQuestion({ question, possibleAnswers, handleNextQuestion, answer, setAnswer}){
     //A state for the checkbox form
-    const [checked, setChecked] = useState()
+    const [value, setValue] = useState("")
 
-    function handleChecked(e){
-        setChecked(e.currentTarget.checked)
+    function handleCheckBoxChange(val){
+        setValue(val)
     }
-    //Randomize a correct answer. Returns an answer
-    function generatePossibleAnswer(answersArray){
-        const arrayIndex = Math.floor((Math.random() * answersArray.length))
-        return answersArray[arrayIndex]
-    }
-    const randomPossibleAnswer = generatePossibleAnswer(question.answers)
-    //Join the correct answer into the array of incorrect answers to display them
-    const answerOptionsArray = question.wrongAnswers.concat(randomPossibleAnswer) 
-    const randomizedOptionsArray = shuffle(answerOptionsArray);
-
-    const mappedOptions = randomizedOptionsArray.map((option, index) => {
-        return(
-            <ToggleButton key={index}
-                          id={`checkbox-${index}`}
-                          type="checkbox"
-                          checked = {checked}
-                          onChange = {handleChecked}
-                          >{option}</ToggleButton>
-        )
-    })
+    
+    // const mappedOptions = possibleAnswers.map(answer => {
+    //     return(
+    //         <ToggleButton>{answer}</ToggleButton>
+    //     )
+    // })
+    
 
     function shuffle(array) {
         let m = array.length, t, i;
@@ -51,21 +39,15 @@ function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
         return array;
       }
 
-    function handleChoiceChange(e){
-        const current_value = e.target.answer;
-        console.log("Target Value", current_value);
-        setAnswer(current_value);
-    }
-
    
     return(
         <>
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
         <Form onSubmit={handleNextQuestion}>
-            <ButtonGroup>
-                {mappedOptions}
-            </ButtonGroup>
+            <ToggleButtonGroup type = "checkbox" value={value} onChange={handleCheckBoxChange}>
+                {/* {mappedOptions} */}
+            </ToggleButtonGroup>
                 
            <Button type="submit">Submit</Button>
         </Form>

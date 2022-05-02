@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./TwentyQuestions.css";
 import { useOutletContext } from "react-router-dom";
 import QuizQuestionCard from "../QuizQuestionCard/QuizQuestionsCard";
@@ -12,14 +12,36 @@ function TwentyQuestions(){
     //A state that tracks whether the user has completed all 20 questions
     const [quizIsFinished, setQuizIsFinished] = useState(false);
 
-    //A state that receives the thematic array // 
+    //A state that receives the shuffled array // 
     const [quizQuestions, setQuizQuestions] = useState([]);
+
+    const [possibleAnswers, setPossibleAnswers] = useState([])
+
+    //A use ref to try to grab our ANswers propery
+    const didMount  = useRef(false)
 
     //A state that tracks the score
     const [score, setScore] = useState({
         correct_answers: 0,
         incorrect_answers: 0
     })
+    //A helper function to shuffle arrays
+    //This functino can be bastracted into its own custom Hook. Also used in QuizQuestion Component
+        
+    function shuffle(array) {
+        let m = array.length, t, i;
+  
+        // While there remain elements to shuffle…
+        while (m) {
+            // Pick a remaining element…
+            i = Math.floor(Math.random() * m--);
+            // And swap it with the current element.
+            t = array[m];
+            array[m] = array[i];
+            array[i] = t;
+        }
+        return array;
+    }
 
    
 
@@ -31,33 +53,13 @@ function TwentyQuestions(){
             return thematicQuestionsArray
         }
 
-    //A helper function to shuffle arrays
-    //This functino can be bastracted into its own custom Hook. Also used in QuizQuestion Component
-    function shuffle(array) {
-        let m = array.length, t, i;
-      
-        // While there remain elements to shuffle…
-        while (m) {
-      
-          // Pick a remaining element…
-          i = Math.floor(Math.random() * m--);
-      
-          // And swap it with the current element.
-          t = array[m];
-          array[m] = array[i];
-          array[i] = t;
-        }
-      
-        return array;
-      }
         function fetchRandom20Questions(){
             //Generate an array of consecutive numbers that is the length fo the Questionsarray
             const baseArray = []
 
             //Hard coding CIVICS CHANGE THIS!!!!!!!!!!!!!
             const civicsQuestions = generateThematicQuestionsArray("civics");
-            console.log(civicsQuestions);
-        
+
             for (let i = 1; i < civicsQuestions.length; i++){
                 baseArray.push(i)
             }
@@ -69,10 +71,42 @@ function TwentyQuestions(){
             const final20questions = base20index.map(index=>civicsQuestions[index])
 
             return(final20questions)
-    }
+        }
+        
+
         setQuizQuestions(fetchRandom20Questions())
 
     }, [questionsData])
+
+    useEffect(()=>{
+        //Randomize a correct answer. Returns an answer
+        function generatePossibleAnswer(answersArray){
+            const arrayIndex = Math.floor((Math.random() * answersArray.length))
+            return answersArray[arrayIndex]
+        }
+
+        function generateRandomizedOptionsArray(){
+
+            const randomPossibleAnswer = generatePossibleAnswer(quizQuestions.answers)
+            //Join the correct answer into the array of incorrect answers to display them
+            const answerOptionsArray = quizQuestions.wrongAnswers.concat(randomPossibleAnswer) 
+            const randomizedOptionsArray = shuffle(answerOptionsArray);
+
+            return randomizedOptionsArray;
+        }
+
+        if(!didMount.current){
+            return didMount.current = true;
+        }
+
+        setPossibleAnswers(generateRandomizedOptionsArray())
+        console.log(possibleAnswers)
+        
+    }, [quizQuestions.answers, quizQuestions.wrongAnswers, possibleAnswers])
+
+    
+
+
     return(
         <>
         <div id="twenty-questions-title">
@@ -80,7 +114,8 @@ function TwentyQuestions(){
         </div>
         <div className="quiz-container">
             {quizQuestions.length === 0 ? <h1>Loading...</h1> :<QuizQuestionCard 
-                                            question={quizQuestions[currentQuestion]} 
+                                            question={quizQuestions[currentQuestion]}
+                                            possibleAnswers = {possibleAnswers} 
                                             currentQuestion={currentQuestion} 
                                             setCurrentQuestion={setCurrentQuestion}
                                             setQuizIsFinished={setQuizIsFinished}
