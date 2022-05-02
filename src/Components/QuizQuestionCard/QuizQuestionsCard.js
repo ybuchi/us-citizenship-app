@@ -51,6 +51,7 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
             setCurrentQuestion(nextQuestion);
         
         }
+        //Reset Forms
         setAnswer("");
         
     }

@@ -32,6 +32,7 @@ function TwentyQuestions(){
         }
 
     //A helper function to shuffle arrays
+    //This functino can be bastracted into its own custom Hook. Also used in QuizQuestion Component
     function shuffle(array) {
         let m = array.length, t, i;
       

@@ -2,9 +2,17 @@ import React, { useState } from "react";
 import "./QuizQuestion.css"
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
+import ToggleButton from 'react-bootstrap/ToggleButton';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
-    //Randomize a correct answer
+    //A state for the checkbox form
+    const [checked, setChecked] = useState()
+
+    function handleChecked(e){
+        setChecked(e.currentTarget.checked)
+    }
+    //Randomize a correct answer. Returns an answer
     function generatePossibleAnswer(answersArray){
         const arrayIndex = Math.floor((Math.random() * answersArray.length))
         return answersArray[arrayIndex]
@@ -14,8 +22,15 @@ function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
     const answerOptionsArray = question.wrongAnswers.concat(randomPossibleAnswer) 
     const randomizedOptionsArray = shuffle(answerOptionsArray);
 
-    const mappedOptions = randomizedOptionsArray.map(option => {
-        return <Form.Check type="checkbox" name="answer" value = {answer} onChange={handleChoiceChange} label={`${option}`}/>
+    const mappedOptions = randomizedOptionsArray.map((option, index) => {
+        return(
+            <ToggleButton key={index}
+                          id={`checkbox-${index}`}
+                          type="checkbox"
+                          checked = {checked}
+                          onChange = {handleChecked}
+                          >{option}</ToggleButton>
+        )
     })
 
     function shuffle(array) {
@@ -37,7 +52,7 @@ function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
       }
 
     function handleChoiceChange(e){
-        const current_value = e.target;
+        const current_value = e.target.answer;
         console.log("Target Value", current_value);
         setAnswer(current_value);
     }
@@ -48,12 +63,11 @@ function QuizQuestion({ question, handleNextQuestion, answer, setAnswer}){
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
         <Form onSubmit={handleNextQuestion}>
-            <Form.Check onChange = {handleChoiceChange}>
-            {mappedOptions}
-            </Form.Check>
-{/* [            <Form.Control type="text" name="answer" value={answer} onChange={handleTypingChange} placeholder="Your answer here"></Form.Control> */}
+            <ButtonGroup>
+                {mappedOptions}
+            </ButtonGroup>
                 
-]            <Button type="submit">Submit</Button>
+           <Button type="submit">Submit</Button>
         </Form>
         
         </>
