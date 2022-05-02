@@ -7,12 +7,13 @@
         "civics"
       ],
       "answers": [
-        "Republic",
-        "Constitution-based federal republic",
-        "Representative Democracy"
+        "A republic",
+        "A constitution-based federal republic",
+        "A representative democracy"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["A constitutional monarchy", "A socialist state", "A direct democracy"]
     },
     {
       "id": 2,
@@ -24,7 +25,8 @@
         "The U.S. Constitution"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["The Federalist Papers", "The Bill of Rights", "The U.S. Supreme Court", "The police"]
     },
     {
       "id": 3,
@@ -33,12 +35,13 @@
         "civics"
       ],
       "answers": [
-        "Forms the government.",
-        "Defines the parts of the government",
-        "Protects the rights of the people"
+        "It forms the government.",
+        "It defines the parts of the government.",
+        "It protects the rights of the people."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders."]
     },
     {
       "id": 4,
@@ -54,7 +57,8 @@
         "Example of social contract"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
     },
     {
       "id": 5,
@@ -66,7 +70,8 @@
         "The amendment process"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
     },
     {
       "id": 6,
@@ -79,7 +84,9 @@
         "(The basic) rights of people living in the United States"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 7,
@@ -91,7 +98,9 @@
         27
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 8,
@@ -106,7 +115,9 @@
         "It identifies individual freedoms."
       ],
       "isFlagged": true,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 9,
@@ -118,7 +129,9 @@
         "Declaration of Independence"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 10,
@@ -134,7 +147,9 @@
         "Limited government"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 11,
@@ -146,7 +161,9 @@
         "Declaration of Independence"
       ],
       "isFlagged": true,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 12,
@@ -159,7 +176,9 @@
         "Free market economy"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 13,
@@ -174,7 +193,9 @@
         "No one is above the law"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 14,
@@ -193,7 +214,9 @@
         "Iroquois Great Law of Peace"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 15,
@@ -207,7 +230,9 @@
         "Separation of power."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 16,
@@ -220,7 +245,9 @@
         "Congress, the president, and the courts"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 17,
@@ -232,7 +259,9 @@
         "Executive branch"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 18,
@@ -246,7 +275,9 @@
         "Legislative branch"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 19,
@@ -258,7 +289,9 @@
         "Senate and the House (of Representatives)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 20,
@@ -272,7 +305,9 @@
         "Makes the federal budget."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 21,
@@ -284,7 +319,9 @@
         "One hundred (100)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 22,
@@ -296,7 +333,9 @@
         "Six (6) years"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 23,
@@ -309,7 +348,9 @@
         "[NY] Charles E. Schumer"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 24,
@@ -321,7 +362,9 @@
         "Four hundred thirty-five (435"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 25,
@@ -333,7 +376,9 @@
         "Two (2) years."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 26,
@@ -345,7 +390,9 @@
         "To more closely follow public opinion."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 27,
@@ -357,7 +404,9 @@
         "Two (2)."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 28,
@@ -370,7 +419,9 @@
         "The Great Compromise (Connecticut Compromise)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 29,
@@ -382,7 +433,9 @@
         "[Queens, NY] Grace Meng"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 30,
@@ -394,7 +447,9 @@
         "Nancy Pelosi"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 31,
@@ -407,7 +462,9 @@
         "People of their state"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 32,
@@ -419,7 +476,9 @@
         "Citizens from their state"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 33,
@@ -434,7 +493,9 @@
         "People in their district."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 34,
@@ -446,7 +507,9 @@
         "Citizens from their congressional district."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 35,
@@ -460,7 +523,9 @@
         "Because some states have more people."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 36,
@@ -472,7 +537,9 @@
         "Four (4) years"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 37,
@@ -485,7 +552,9 @@
         "To keep the president from becoming too powerful."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 38,
@@ -497,7 +566,9 @@
         "Joe Biden"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 39,
@@ -509,7 +580,9 @@
         "Kamala Harris"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 40,
@@ -521,7 +594,9 @@
         "The vice-president"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 41,
@@ -537,7 +612,9 @@
         "Chief diplomat."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 42,
@@ -549,7 +626,9 @@
         "The President (of the United States.)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 43,
@@ -561,7 +640,9 @@
         "The President (of the United States.)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 44,
@@ -573,7 +654,9 @@
         "The President (of the United States.)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 45,
@@ -585,7 +668,9 @@
         "The President (of the United States.)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 46,
@@ -599,7 +684,9 @@
         "Federal departments and agencies"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 47,
@@ -611,7 +698,9 @@
         "Advises the president (of the United States)."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 48,
@@ -638,7 +727,9 @@
         "Vice President (of the United States)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 49,
@@ -651,7 +742,9 @@
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 50,
@@ -664,7 +757,9 @@
         "Federal Courts"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 51,
@@ -679,7 +774,9 @@
         "Decides if a law goes against the (U.S.) Constitution."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 52,
@@ -691,7 +788,9 @@
         "The Supreme Court"
       ],
       "isFlagged": true,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 53,
@@ -703,7 +802,9 @@
         "Nine (9)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 54,
@@ -715,7 +816,9 @@
         "Five (5)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 55,
@@ -729,7 +832,9 @@
         "(Until) retirement."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 56,
@@ -742,7 +847,9 @@
         "To limit outside (political) influence."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 57,
@@ -754,7 +861,9 @@
         "John Roberts"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 58,
@@ -771,7 +880,9 @@
         "Set foreign policy"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 59,
@@ -787,7 +898,9 @@
         "Approve zoning and land use"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 60,
@@ -799,7 +912,9 @@
         "(It states that the) powers not given to the federal government belong to the states or to the people."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 61,
@@ -811,7 +926,9 @@
         "[NY] Kathy Hochul"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 62,
@@ -823,7 +940,9 @@
         "[NY] Albany"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 63,
@@ -838,7 +957,9 @@
         "A male citizen of any race (can vote)."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 64,
@@ -852,7 +973,9 @@
         "U.S. citizens"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 65,
@@ -869,7 +992,9 @@
         "The right to bear arms"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 66,
@@ -882,7 +1007,9 @@
         "The flag"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 67,
@@ -899,7 +1026,9 @@
         "Be loyal to the United States"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 68,
@@ -913,7 +1042,9 @@
         "Be born in the United States"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 69,
@@ -934,7 +1065,9 @@
         "Write to a newspaper"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 70,
@@ -951,7 +1084,9 @@
         "Work for local, state, or federal government"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 71,
@@ -966,7 +1101,9 @@
         "Civic duty"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 72,
@@ -980,7 +1117,9 @@
         "Makes the draft fair, if needed"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 73,
@@ -997,7 +1136,9 @@
         "Escape persecution"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 74,
@@ -1011,7 +1152,9 @@
         "Native Americans"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 75,
@@ -1025,7 +1168,9 @@
         "People from Africa"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 76,
@@ -1040,7 +1185,9 @@
         "War for (American) Independence"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 77,
@@ -1062,7 +1209,9 @@
         "Intolerable (Coercive) Acts"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 78,
@@ -1075,7 +1224,9 @@
         "(Thomas) Jefferson"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 79,
@@ -1089,7 +1240,9 @@
         "July 4th, 1776"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 80,
@@ -1107,7 +1260,9 @@
         "(Battle of) Yorktown (British surrender at Yorktown)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 81,
@@ -1132,7 +1287,9 @@
         "Georgia"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 82,
@@ -1145,7 +1302,9 @@
         "(U.S.)Consitution"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 83,
@@ -1161,7 +1320,9 @@
         "Publius"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 84,
@@ -1175,7 +1336,9 @@
         "They supported passing the (U.S.) Constitution."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 85,
@@ -1192,7 +1355,9 @@
         "U.S. diplomat"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 86,
@@ -1208,7 +1373,9 @@
         "President of the Constitutional Convention"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 87,
@@ -1226,7 +1393,9 @@
         "Writer of the Virginia Statute on Religious Freedom"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 88,
@@ -1242,7 +1411,9 @@
         "One of the writers of the Federalist Papers"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 89,
@@ -1259,7 +1430,9 @@
         "Member of the Continental Congress"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 90,
@@ -1273,7 +1446,9 @@
         "Louisiana"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 91,
@@ -1289,7 +1464,9 @@
         "Spanish-American War"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 92,
@@ -1302,7 +1479,9 @@
         "The Civil War"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 93,
@@ -1322,7 +1501,9 @@
         "Lincoln was assassinated."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 94,
@@ -1339,7 +1520,9 @@
         "Delivered the Gettysburg Address"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 95,
@@ -1355,7 +1538,9 @@
         "Freed slaves in most Southern states"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 96,
@@ -1368,7 +1553,9 @@
         "The Civil War"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 97,
@@ -1381,7 +1568,9 @@
         "14th Amendment"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 98,
@@ -1397,7 +1586,9 @@
         "1870"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 99,
@@ -1415,7 +1606,9 @@
         "Lucy Stone"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 100,
@@ -1432,7 +1625,9 @@
         "(Persian) Gulf War"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 101,
@@ -1447,7 +1642,9 @@
         "To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 102,
@@ -1462,7 +1659,9 @@
         "(With the) 19th Amendment"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 103,
@@ -1475,7 +1674,9 @@
         "Longest economic recession in modern history"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 104,
@@ -1489,7 +1690,9 @@
         "Stock market crash of 1929"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 105,
@@ -1502,7 +1705,9 @@
         "(Franklin D.) Roosevelt"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 106,
@@ -1518,7 +1723,9 @@
         "To oppose the Axis Powers (Germany, Italy, and Japan)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 107,
@@ -1534,7 +1741,9 @@
         "Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 108,
@@ -1549,7 +1758,9 @@
         "Russia"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 109,
@@ -1563,7 +1774,9 @@
         "Nuclear war"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 110,
@@ -1576,7 +1789,9 @@
         "To stop the spread of communism."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 111,
@@ -1589,7 +1804,9 @@
         "To stop the spread of communism."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 112,
@@ -1602,7 +1819,9 @@
         "Fought to end racial discrimination."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 113,
@@ -1617,7 +1836,9 @@
         "Worked to ensure that people would 'not be judged by the color of their skin, but by the content of their character'"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 114,
@@ -1630,7 +1851,9 @@
         "To force the Iraqi military from Kuwait."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 115,
@@ -1646,7 +1869,9 @@
         "Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 116,
@@ -1661,7 +1886,9 @@
         "War in Iraq"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 117,
@@ -1702,7 +1929,9 @@
         "For a complete list of tribes, please visit bia.gov."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 118,
@@ -1720,7 +1949,9 @@
         "Integrated circuit (IC)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 119,
@@ -1732,7 +1963,9 @@
         "Washington, D.C."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 120,
@@ -1745,7 +1978,9 @@
         "Liberty Island [Also acceptable are New Jersey, near New York City, and on the Hudson (River)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 121,
@@ -1758,7 +1993,9 @@
         "(Because the stripes) represent the original colonies"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 122,
@@ -1772,7 +2009,9 @@
         "(Because there are) 50 states"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 123,
@@ -1784,7 +2023,9 @@
         "The Star-Spangled Banner"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 124,
@@ -1797,7 +2038,9 @@
         "We all become one."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 125,
@@ -1810,7 +2053,9 @@
         "The country's birthday"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 126,
@@ -1831,7 +2076,9 @@
         "Christmas Day"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": true
+      "isSpecialCriteria": true,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 127,
@@ -1843,7 +2090,9 @@
         "A holiday to honor soldiers who died in military service."
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     },
     {
       "id": 128,
@@ -1856,7 +2105,9 @@
         "A holiday to honor people who have served (in the U.S. military)"
       ],
       "isFlagged": false,
-      "isSpecialCriteria": false
+      "isSpecialCriteria": false,
+      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+
     }
   ]
 }
