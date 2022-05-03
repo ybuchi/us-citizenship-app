@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./TwentyQuestions.css";
 import { useOutletContext } from "react-router-dom";
 import QuizQuestionCard from "../QuizQuestionCard/QuizQuestionsCard";
@@ -15,10 +15,7 @@ function TwentyQuestions(){
     //A state that receives the shuffled array // 
     const [quizQuestions, setQuizQuestions] = useState([]);
 
-    const [possibleAnswers, setPossibleAnswers] = useState([])
-
-    //A use ref to try to grab our ANswers propery
-    const didMount  = useRef(false)
+    
 
     //A state that tracks the score
     const [score, setScore] = useState({
@@ -78,31 +75,7 @@ function TwentyQuestions(){
 
     }, [questionsData])
 
-    useEffect(()=>{
-        //Randomize a correct answer. Returns an answer
-        function generatePossibleAnswer(answersArray){
-            const arrayIndex = Math.floor((Math.random() * answersArray.length))
-            return answersArray[arrayIndex]
-        }
-
-        function generateRandomizedOptionsArray(){
-
-            const randomPossibleAnswer = generatePossibleAnswer(quizQuestions.answers)
-            //Join the correct answer into the array of incorrect answers to display them
-            const answerOptionsArray = quizQuestions.wrongAnswers.concat(randomPossibleAnswer) 
-            const randomizedOptionsArray = shuffle(answerOptionsArray);
-
-            return randomizedOptionsArray;
-        }
-
-        if(!didMount.current){
-            return didMount.current = true;
-        }
-
-        setPossibleAnswers(generateRandomizedOptionsArray())
-        console.log(possibleAnswers)
-        
-    }, [quizQuestions.answers, quizQuestions.wrongAnswers, possibleAnswers])
+    
 
     
 
@@ -113,15 +86,14 @@ function TwentyQuestions(){
             <h1> 20 Questions </h1>
         </div>
         <div className="quiz-container">
-            {quizQuestions.length === 0 ? <h1>Loading...</h1> :<QuizQuestionCard 
-                                            question={quizQuestions[currentQuestion]}
-                                            possibleAnswers = {possibleAnswers} 
-                                            currentQuestion={currentQuestion} 
-                                            setCurrentQuestion={setCurrentQuestion}
-                                            setQuizIsFinished={setQuizIsFinished}
-                                            quizIsFinished={quizIsFinished}
-                                            score={score}
-                                            setScore={setScore}/> }
+            {quizQuestions.length === 0 ? <h1>Loading...</h1> : <QuizQuestionCard 
+                                                                                            question={quizQuestions[currentQuestion]}
+                                                                                            currentQuestion={currentQuestion} 
+                                                                                            setCurrentQuestion={setCurrentQuestion}
+                                                                                            setQuizIsFinished={setQuizIsFinished}
+                                                                                            quizIsFinished={quizIsFinished}
+                                                                                            score={score}
+                                                                                            setScore={setScore}/> }
         </div>
         </>
     )

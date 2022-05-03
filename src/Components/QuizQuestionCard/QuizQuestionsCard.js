@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./QuizQuestionCard.css";
 import Button  from "react-bootstrap/Button";
 import ResultsCard from "../ResultsCard/ResultsCard";
@@ -6,8 +6,10 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 
 // A component that can be recycle for most/all Quiz modes
 
-function QuizQuestionCard({ question, possibleAnswers, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
-    const [answer, setAnswer] = useState("")
+function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
+   
+
+
     //A function that verifies the answer
     function verifyAnswer(answer){
 
@@ -37,22 +39,22 @@ function QuizQuestionCard({ question, possibleAnswers, currentQuestion, setCurre
     }
     function handleNextQuestion(e){
         e.preventDefault();
-        const answer = e.target.answer.value 
+        // const answer = e.target.answer.value 
 
-        //If it's the last question
-        if (currentQuestion === 19){
-            verifyAnswer(answer)
-            setQuizIsFinished(true);
-        //Otherwise:
-        }else{
-            const nextQuestion = ++currentQuestion
-            //Check answerf
-            verifyAnswer(answer);
-            setCurrentQuestion(nextQuestion);
+        // //If it's the last question
+        // if (currentQuestion === 19){
+        //     verifyAnswer(answer)
+        //     setQuizIsFinished(true);
+        // //Otherwise:
+        // }else{
+        //     const nextQuestion = ++currentQuestion
+        //     //Check answerf
+        //     verifyAnswer(answer);
+        //     setCurrentQuestion(nextQuestion);
         
-        }
-        //Reset Forms
-        setAnswer("");
+        // }
+        // //Reset Forms
+        // setAnswer("");
         
     }
     return(
@@ -63,8 +65,7 @@ function QuizQuestionCard({ question, possibleAnswers, currentQuestion, setCurre
                                                               quizIsFinished={quizIsFinished}
                                                               question={question}
                                                               handleNextQuestion={handleNextQuestion}
-                                                              answer = {answer}
-                                                              setAnswer = {setAnswer}/>}
+                                                            />}
              <p>{currentQuestion + 1} / 20</p>
         </div>
     )
