@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./QuizQuestion.css"
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
@@ -9,7 +9,6 @@ import { render } from "react-dom";
 
 function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore}){
     const [answer, setAnswer] = useState("")
-    const optionsRef = useRef([]);
     const [optionsArray, setOptionsArray] = useState([])
 
     //A use effect that will generate the list of Options
@@ -100,7 +99,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
 
     //Map the options into checkboxes
     const mappedOptions = optionsArray.map((possibleAnswer, index) => {return (
-        <label key={`label-${index}`}>
+        <label className="radio-option" key={`label-${index}`}>
             <input type="radio" key={`input-${index}`} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
             {possibleAnswer}
         </label>
@@ -111,9 +110,11 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         <>
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
-        <Form onSubmit={handleNextQuestion}>
+        <Form id="options-form" onSubmit={handleNextQuestion}>
+                <div className="options-container">
                 {mappedOptions.length === 0 ? <p>loading...</p> : mappedOptions}
-           <Button type="submit">Submit</Button>
+                <Button id="question-submit-btn" type="submit">Submit</Button>
+                </div>
         </Form>
         
         </>

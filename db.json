@@ -34,7 +34,7 @@
         "The Federalist Papers",
         "The Bill of Rights",
         "The U.S. Supreme Court",
-        "The police"
+        "The executive branch of the government"
       ]
     },
     {
@@ -52,7 +52,9 @@
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
-        "It draws state borders."
+        "It draws state borders.",
+        "Defines political parties.",
+        "Establishes the size of the Supreme Court."
       ]
     },
     {
@@ -62,16 +64,16 @@
         "civics"
       ],
       "answers": [
-        "Self government",
-        "Popular sovereignty",
-        "Consent of the governed",
-        "People should govern themselves",
-        "Example of social contract"
+        "Self government.",
+        "Popular sovereignty.",
+        "Consent of the governed.",
+        "People should govern themselves.",
+        "Example of social contract."
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
+        "There should be a centralized government.",
         "It draws state borders.",
         "It does another thing."
       ]
@@ -157,7 +159,7 @@
       "answers": [
         "Declaration of Independence"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -330,7 +332,7 @@
         "(U.S. or national) legislature",
         "Legislative branch"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -347,7 +349,7 @@
       "answers": [
         "Senate and the House (of Representatives)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -400,7 +402,7 @@
       "answers": [
         "Six (6) years"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -452,7 +454,7 @@
       "answers": [
         "Two (2) years."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -610,7 +612,7 @@
       "answers": [
         "Citizens from their congressional district."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -629,7 +631,7 @@
         "Because they have more people.",
         "Because some states have more people."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -770,7 +772,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -890,7 +892,7 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -908,7 +910,7 @@
         "Supreme Court",
         "Federal Courts"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -928,7 +930,7 @@
         "Resolves disputes (disagreements) about the law.",
         "Decides if a law goes against the (U.S.) Constitution."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -998,7 +1000,7 @@
         "Lifetime appointment.",
         "(Until) retirement."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1016,7 +1018,7 @@
         "To be independent (of politics).",
         "To limit outside (political) influence."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1055,7 +1057,7 @@
         "Make treaties",
         "Set foreign policy"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1076,7 +1078,7 @@
         "Give a driver�s license",
         "Approve zoning and land use"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1147,7 +1149,7 @@
         "Any citizen can vote. (Women and men can vote.)",
         "A male citizen of any race (can vote)."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1166,7 +1168,7 @@
         "Citizens of the United States",
         "U.S. citizens"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -2281,7 +2283,7 @@
         "Tuscarora",
         "For a complete list of tribes, please visit bia.gov."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",

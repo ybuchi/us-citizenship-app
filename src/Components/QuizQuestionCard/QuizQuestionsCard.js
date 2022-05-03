@@ -16,13 +16,13 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
     return(
         <div className="quiz-question-card">
             {quizIsFinished ? <ResultsCard score = {score} /> : <QuizQuestion currentQuestion={currentQuestion} 
-                                                              setCurrentQuestion={setCurrentQuestion}
-                                                              setQuizIsFinished={setQuizIsFinished}
-                                                              quizIsFinished={quizIsFinished}
-                                                              question={question}
-                                                              score={score}
-                                                              setScore={setScore}
-                                                            />}
+                                                                              setCurrentQuestion={setCurrentQuestion}
+                                                                              setQuizIsFinished={setQuizIsFinished}
+                                                                              quizIsFinished={quizIsFinished}
+                                                                              question={question}
+                                                                              score={score}
+                                                                              setScore={setScore}
+                                                                />}
              <p>{currentQuestion + 1} / 20</p>
         </div>
     )
