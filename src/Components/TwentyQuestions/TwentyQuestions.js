@@ -77,7 +77,7 @@ function TwentyQuestions(){
             <h1> 20 Questions </h1>
         </div>
         <div className="quiz-container">
-            {quizQuestions.length === 0 ? <h1>Loading...</h1> : <QuizQuestionCard 
+            {quizQuestions.length === 0 ? <h1 className="loading">Loading...</h1> : <QuizQuestionCard 
                                                                                             question={quizQuestions[currentQuestion]}
                                                                                             currentQuestion={currentQuestion} 
                                                                                             setCurrentQuestion={setCurrentQuestion}

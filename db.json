@@ -87,7 +87,7 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -215,7 +215,7 @@
         "Capitalism",
         "Free market economy"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -235,7 +235,7 @@
         "Government must obey the law.",
         "No one is above the law"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -278,7 +278,7 @@
         "Checks and balances.",
         "Separation of power."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -296,7 +296,7 @@
         "Legislative, executive, judicial.",
         "Congress, the president, and the courts"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -385,7 +385,7 @@
       "answers": [
         "One hundred (100)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -471,7 +471,7 @@
       "answers": [
         "To more closely follow public opinion."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -558,7 +558,7 @@
         "Citizens of their state",
         "People of their state"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -648,7 +648,7 @@
       "answers": [
         "Four (4) years"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -789,7 +789,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -981,7 +981,7 @@
       "answers": [
         "Five (5)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1129,7 +1129,7 @@
       "answers": [
         "[NY] Albany"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1208,7 +1208,7 @@
         "The United States",
         "The flag"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
