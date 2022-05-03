@@ -48,7 +48,7 @@
         "It defines the parts of the government.",
         "It protects the rights of the people."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -70,7 +70,7 @@
         "People should govern themselves.",
         "Example of social contract."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "There should be a centralized government.",
@@ -105,7 +105,7 @@
         "(The basic) rights of all Americans",
         "(The basic) rights of people living in the United States"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -122,7 +122,7 @@
       "answers": [
         27
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -368,7 +368,7 @@
         "Declares war.",
         "Makes the federal budget."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -595,7 +595,7 @@
         "People from their (congressional) district.",
         "People in their district."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -738,7 +738,7 @@
         "Commander in Chief (of the military).",
         "Chief diplomat."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -755,7 +755,7 @@
       "answers": [
         "The President (of the United States.)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -874,7 +874,7 @@
         "Secretary of Veteran Affairs",
         "Vice President (of the United States)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1035,7 +1035,7 @@
       "answers": [
         "John Roberts"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1095,7 +1095,7 @@
       "answers": [
         "(It states that the) powers not given to the federal government belong to the states or to the people."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1112,7 +1112,7 @@
       "answers": [
         "[NY] Kathy Hochul"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1275,7 +1275,7 @@
         "Support or oppose an issue or policy",
         "Write to a newspaper"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
