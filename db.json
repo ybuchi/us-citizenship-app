@@ -13,7 +13,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["A constitutional monarchy", "A socialist state", "A direct democracy"]
+      "wrongAnswers": [
+        "A constitutional monarchy",
+        "A socialist state",
+        "A direct democracy"
+      ]
     },
     {
       "id": 2,
@@ -26,7 +30,12 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["The Federalist Papers", "The Bill of Rights", "The U.S. Supreme Court", "The police"]
+      "wrongAnswers": [
+        "The Federalist Papers",
+        "The Bill of Rights",
+        "The U.S. Supreme Court",
+        "The police"
+      ]
     },
     {
       "id": 3,
@@ -41,7 +50,10 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders."]
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders."
+      ]
     },
     {
       "id": 4,
@@ -58,7 +70,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 5,
@@ -71,7 +87,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 6,
@@ -85,8 +105,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 7,
@@ -99,8 +122,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 8,
@@ -116,8 +142,11 @@
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 9,
@@ -130,8 +159,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 10,
@@ -148,8 +180,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 11,
@@ -162,8 +197,11 @@
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 12,
@@ -177,8 +215,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 13,
@@ -194,8 +235,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 14,
@@ -215,8 +259,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 15,
@@ -231,8 +278,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 16,
@@ -246,8 +296,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 17,
@@ -260,8 +313,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 18,
@@ -276,8 +332,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 19,
@@ -290,8 +349,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 20,
@@ -306,8 +368,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 21,
@@ -320,8 +385,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 22,
@@ -334,8 +402,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 23,
@@ -349,8 +420,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 24,
@@ -363,8 +437,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 25,
@@ -377,8 +454,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 26,
@@ -391,8 +471,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 27,
@@ -405,8 +488,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 28,
@@ -420,8 +506,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 29,
@@ -432,10 +521,13 @@
       "answers": [
         "[Queens, NY] Grace Meng"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 30,
@@ -448,8 +540,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 31,
@@ -463,8 +558,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 32,
@@ -477,8 +575,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 33,
@@ -494,8 +595,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 34,
@@ -508,8 +612,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 35,
@@ -524,8 +631,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 36,
@@ -538,8 +648,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 37,
@@ -553,8 +666,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 38,
@@ -567,8 +683,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 39,
@@ -581,8 +700,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 40,
@@ -595,8 +717,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 41,
@@ -613,8 +738,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 42,
@@ -627,8 +755,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 43,
@@ -641,8 +772,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 44,
@@ -655,8 +789,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 45,
@@ -669,8 +806,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 46,
@@ -683,10 +823,13 @@
         "Cabinet",
         "Federal departments and agencies"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 47,
@@ -699,8 +842,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 48,
@@ -728,8 +874,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 49,
@@ -743,8 +892,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 50,
@@ -758,8 +910,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 51,
@@ -775,8 +930,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 52,
@@ -789,8 +947,11 @@
       ],
       "isFlagged": true,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 53,
@@ -803,8 +964,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 54,
@@ -817,8 +981,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 55,
@@ -833,8 +1000,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 56,
@@ -848,8 +1018,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 57,
@@ -862,8 +1035,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 58,
@@ -881,8 +1057,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 59,
@@ -899,8 +1078,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 60,
@@ -913,8 +1095,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 61,
@@ -927,8 +1112,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 62,
@@ -941,8 +1129,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 63,
@@ -958,8 +1149,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 64,
@@ -974,8 +1168,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 65,
@@ -991,10 +1188,13 @@
         "Freedom of religion",
         "The right to bear arms"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 66,
@@ -1008,8 +1208,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 67,
@@ -1025,10 +1228,13 @@
         "Serve (help, do important work for) the nation (if needed)",
         "Be loyal to the United States"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 68,
@@ -1043,8 +1249,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 69,
@@ -1066,8 +1275,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 70,
@@ -1085,8 +1297,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 71,
@@ -1102,8 +1317,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 72,
@@ -1118,8 +1336,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 73,
@@ -1137,8 +1358,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 74,
@@ -1153,8 +1377,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 75,
@@ -1169,8 +1396,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 76,
@@ -1186,8 +1416,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 77,
@@ -1210,8 +1443,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 78,
@@ -1225,8 +1461,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 79,
@@ -1239,10 +1478,13 @@
       "answers": [
         "July 4th, 1776"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 80,
@@ -1261,8 +1503,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 81,
@@ -1288,8 +1533,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 82,
@@ -1303,8 +1551,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 83,
@@ -1321,8 +1572,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 84,
@@ -1337,8 +1591,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 85,
@@ -1356,8 +1613,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 86,
@@ -1374,8 +1634,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 87,
@@ -1394,8 +1657,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 88,
@@ -1412,8 +1678,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 89,
@@ -1431,8 +1700,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 90,
@@ -1447,8 +1719,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 91,
@@ -1465,8 +1740,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 92,
@@ -1480,8 +1758,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 93,
@@ -1502,8 +1783,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 94,
@@ -1521,8 +1805,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 95,
@@ -1539,8 +1826,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 96,
@@ -1554,8 +1844,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 97,
@@ -1569,8 +1862,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 98,
@@ -1587,8 +1883,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 99,
@@ -1607,8 +1906,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 100,
@@ -1626,8 +1928,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 101,
@@ -1643,8 +1948,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 102,
@@ -1660,8 +1968,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 103,
@@ -1675,8 +1986,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 104,
@@ -1691,8 +2005,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 105,
@@ -1706,8 +2023,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 106,
@@ -1724,8 +2044,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 107,
@@ -1742,8 +2065,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 108,
@@ -1759,8 +2085,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 109,
@@ -1775,8 +2104,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 110,
@@ -1790,8 +2122,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 111,
@@ -1805,8 +2140,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 112,
@@ -1820,8 +2158,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 113,
@@ -1837,8 +2178,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 114,
@@ -1852,8 +2196,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 115,
@@ -1870,8 +2217,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 116,
@@ -1887,8 +2237,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 117,
@@ -1930,8 +2283,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 118,
@@ -1950,8 +2306,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 119,
@@ -1964,8 +2323,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 120,
@@ -1979,8 +2341,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 121,
@@ -1994,8 +2359,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 122,
@@ -2010,8 +2378,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 123,
@@ -2024,8 +2395,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 124,
@@ -2039,8 +2413,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 125,
@@ -2054,8 +2431,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 126,
@@ -2077,8 +2457,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": true,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 127,
@@ -2091,8 +2474,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     },
     {
       "id": 128,
@@ -2106,8 +2492,11 @@
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
-      "wrongAnswers" : ["It defines school zoning laws.", "It draws state borders.", "It does another thing."]
-
+      "wrongAnswers": [
+        "It defines school zoning laws.",
+        "It draws state borders.",
+        "It does another thing."
+      ]
     }
   ]
 }

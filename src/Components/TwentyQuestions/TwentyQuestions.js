@@ -15,8 +15,6 @@ function TwentyQuestions(){
     //A state that receives the shuffled array // 
     const [quizQuestions, setQuizQuestions] = useState([]);
 
-    
-
     //A state that tracks the score
     const [score, setScore] = useState({
         correct_answers: 0,
@@ -39,8 +37,6 @@ function TwentyQuestions(){
         }
         return array;
     }
-
-   
 
     useEffect(()=>{
          //A function to fetch a random set of 20 questions from the questions Data
@@ -74,11 +70,6 @@ function TwentyQuestions(){
         setQuizQuestions(fetchRandom20Questions())
 
     }, [questionsData])
-
-    
-
-    
-
 
     return(
         <>

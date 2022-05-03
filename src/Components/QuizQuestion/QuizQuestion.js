@@ -7,11 +7,12 @@ import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { render } from "react-dom";
 
-function QuizQuestion({ question, handleNextQuestion}){
+function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore}){
     const [answer, setAnswer] = useState("")
     const optionsRef = useRef([]);
     const [optionsArray, setOptionsArray] = useState([])
 
+    //A use effect that will generate the list of Options
     useEffect(()=>{
         function shuffle(array) {
             let m = array.length, t, i;
@@ -37,15 +38,58 @@ function QuizQuestion({ question, handleNextQuestion}){
     
         //Save the question options in a useRef so that it doesn't update when the component tries to re-render when choosing an answer
         setOptionsArray(shuffledAnswerOptions)
-        console.log("Our brand new optinos ref. Hope it works!!!", optionsRef.current);
         }
     
         generatePossibleAnswers()
-        console.log(optionsRef.current)
 
     }, [question])
 
-    console.log(optionsRef.current);
+    function verifyAnswer(answer){
+
+        //If the answer is correct
+        //checking the array of possible answers. If what the user typed matches a value in the answers array:
+        if (question.answers.includes(answer)){
+            //Update the correct_answers in the Score state
+            setScore({...score, correct_answers: ++score.correct_answers})
+        //If the answer is incorrect, make a fetch call to flag the question
+        }else{
+            console.log("QuestionID", question.id)
+            const configObj = {
+                method : "PATCH",
+                headers : {
+                    "Content-Type" : "application/json",
+                    "Accepts" : "application/json"
+                },
+                body : JSON.stringify({isFlagged : true})
+
+            }
+            setScore({...score, incorrect_answers: ++score.incorrect_answers})
+            //make a fetch call to patch database and flag the question
+            fetch(`http://localhost:3001/questions/${question.id}`, configObj)
+            .then(res => res.json())
+            .then(updatedQuestion => console.log(updatedQuestion));
+        }
+    }
+
+    function handleNextQuestion(e){
+        e.preventDefault();
+        console.log("This is the answer", answer)
+
+        //If it's the last question
+        if (currentQuestion === 19){
+            verifyAnswer(answer)
+            setQuizIsFinished(true);
+        //Otherwise:
+        }else{
+            const nextQuestion = ++currentQuestion
+            //Check answerf
+            verifyAnswer(answer);
+            setCurrentQuestion(nextQuestion);
+        
+        }
+        //Reset Forms
+        setAnswer("");
+    }
 
     function handleValueChange(e){
         console.log("FIRING")
@@ -53,21 +97,17 @@ function QuizQuestion({ question, handleNextQuestion}){
         setAnswer(checkbox_value);
         // setValue(val)
     }
-    
 
     //Map the options into checkboxes
     const mappedOptions = optionsArray.map((possibleAnswer, index) => {return (
-        <>
-        <label key={index}>
-            <input type="radio" key={index} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
+    
+        <label key={`label-${index}`}>
+            <input type="radio" key={`input-${index}`} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
             {possibleAnswer}
         </label>
-        <br/>
-        </>
+
         )
     })
-
-    
 
     return(
         <>
