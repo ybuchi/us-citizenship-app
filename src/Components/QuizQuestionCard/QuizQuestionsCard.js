@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./QuizQuestionCard.css";
 import Button  from "react-bootstrap/Button";
 import ResultsCard from "../ResultsCard/ResultsCard";
@@ -6,26 +6,24 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 
 // A component that can be recycle for most/all Quiz modes
 
-function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished }){
-    function handleNextQuestion(){
-        if (currentQuestion === 19){
-            setQuizIsFinished(true);
-        }else{
-            const nextQuestion = ++currentQuestion
-            setCurrentQuestion(nextQuestion)
-        }
-    }
+function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
+   
+
+
+    //A function that verifies the answer
+   
+   
     return(
         <div className="quiz-question-card">
-            {quizIsFinished ? <ResultsCard /> : <QuizQuestion currentQuestion={currentQuestion} 
+            {quizIsFinished ? <ResultsCard score = {score} /> : <QuizQuestion currentQuestion={currentQuestion} 
                                                               setCurrentQuestion={setCurrentQuestion}
                                                               setQuizIsFinished={setQuizIsFinished}
                                                               quizIsFinished={quizIsFinished}
                                                               question={question}
-                                                              handleNextQuestion={handleNextQuestion}/>}
-            {/* Question */}
-            {/* Form input where user types in their answer */}
-            {/* Submit button: when user submits, goes on to the next question. */}
+                                                              score={score}
+                                                              setScore={setScore}
+                                                            />}
+             <p>{currentQuestion + 1} / 20</p>
         </div>
     )
 }
