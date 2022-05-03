@@ -10,11 +10,12 @@ import { render } from "react-dom";
 function QuizQuestion({ question, handleNextQuestion}){
     const [answer, setAnswer] = useState("")
     const optionsRef = useRef([]);
+    const [optionsArray, setOptionsArray] = useState([])
 
-
+    useEffect(()=>{
         function shuffle(array) {
             let m = array.length, t, i;
-      
+        
             // While there remain elements to shuffle…
             while (m) {
                 // Pick a remaining element…
@@ -26,6 +27,7 @@ function QuizQuestion({ question, handleNextQuestion}){
             }
             return array;
         }
+    
         function generatePossibleAnswers(){
             //Shuffle the answers array
         const shuffledAnswersArray = shuffle(question.answers)
@@ -34,14 +36,16 @@ function QuizQuestion({ question, handleNextQuestion}){
         const shuffledAnswerOptions = shuffle(answerOptions)
     
         //Save the question options in a useRef so that it doesn't update when the component tries to re-render when choosing an answer
-        optionsRef.current = shuffledAnswerOptions
+        setOptionsArray(shuffledAnswerOptions)
         console.log("Our brand new optinos ref. Hope it works!!!", optionsRef.current);
         }
-
+    
         generatePossibleAnswers()
         console.log(optionsRef.current)
-        
-    
+
+    }, [question])
+
+    console.log(optionsRef.current);
 
     function handleValueChange(e){
         console.log("FIRING")
@@ -49,9 +53,10 @@ function QuizQuestion({ question, handleNextQuestion}){
         setAnswer(checkbox_value);
         // setValue(val)
     }
+    
 
     //Map the options into checkboxes
-    let mappedOptions = optionsRef.current.map((possibleAnswer, index) => {return (
+    const mappedOptions = optionsArray.map((possibleAnswer, index) => {return (
         <>
         <label key={index}>
             <input type="radio" key={index} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
@@ -69,9 +74,7 @@ function QuizQuestion({ question, handleNextQuestion}){
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
         <Form onSubmit={handleNextQuestion}>
-          
-                {mappedOptions}
-            
+                {mappedOptions.length === 0 ? <p>loading...</p> : mappedOptions}
            <Button type="submit">Submit</Button>
         </Form>
         
