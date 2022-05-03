@@ -71,6 +71,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         }
     }
 
+    //Handles question submission and next question
     function handleNextQuestion(e){
         e.preventDefault();
         console.log("This is the answer", answer)
@@ -95,17 +96,14 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         console.log("FIRING")
         const checkbox_value = e.target.value
         setAnswer(checkbox_value);
-        // setValue(val)
     }
 
     //Map the options into checkboxes
     const mappedOptions = optionsArray.map((possibleAnswer, index) => {return (
-    
         <label key={`label-${index}`}>
             <input type="radio" key={`input-${index}`} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
             {possibleAnswer}
         </label>
-
         )
     })
 
@@ -119,7 +117,6 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         </Form>
         
         </>
-        
     )
 }
 

@@ -28,7 +28,7 @@
       "answers": [
         "The U.S. Constitution"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "The Federalist Papers",
@@ -435,7 +435,7 @@
       "answers": [
         "Four hundred thirty-five (435"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -504,7 +504,7 @@
         "Equal representation (for small states)",
         "The Great Compromise (Connecticut Compromise)"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -664,7 +664,7 @@
         "(Because of the) 22nd Amendment.",
         "To keep the president from becoming too powerful."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -698,7 +698,7 @@
       "answers": [
         "Kamala Harris"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -715,7 +715,7 @@
       "answers": [
         "The vice-president"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
