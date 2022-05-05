@@ -1,9 +1,21 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import { Container, Col, Row } from "react-bootstrap";
 import "./ResultsCard.css"
 
-function ResultsCard({score}){
+function ResultsCard({score, questionsToReview, setQuestionsToReview}){
+    const mappedReviewQuestions = questionsToReview.map((questionObject)=><li>
+        <strong>{questionObject.question}</strong>
+        {questionObject.answers.map((answer)=>{
+            return (
+                <ul>
+                    <li>{answer}</li>
+                </ul>
+            )
+        })}
+    </li>)
+
     function determinePass(){
         if (score.correct_answers === 20){
             //return a component PERFECT SCORE
@@ -15,7 +27,16 @@ function ResultsCard({score}){
             return <p>With {score.correct_answers} / 20 correct answers, you'd have passed the test! But here are some questions to review: </p>
         }else{
             //Return YOU DIDN'T PASS, STUDY MORE
-            return <p>Don't worry! You'll get there. In the meantime, here are some questions you can study:</p>
+            return (
+            <>
+                <p>Don't worry! You'll get there. In the meantime, here are some questions you can study:</p>
+                <ol style={{textAlign: "left"}}>
+                    {mappedReviewQuestions}
+                </ol>
+                <p>If you go back to <Link to="/study">Study Mode</Link>, you'll find these questions have been flagged for you!</p>
+            </>
+            )
+            
         }
     }
     return(

@@ -6,7 +6,7 @@ import QuizQuestion from "../QuizQuestion/QuizQuestion";
 
 // A component that can be recycle for most/all Quiz modes
 
-function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore }){
+function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, quizIsFinished, score, setScore, questionsToReview, setQuestionsToReview }){
    
 
 
@@ -15,15 +15,18 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
    
     return(
         <div className="quiz-question-card">
-            {quizIsFinished ? <ResultsCard score = {score} /> : <QuizQuestion currentQuestion={currentQuestion} 
+            {quizIsFinished ? <ResultsCard questionsToReview={questionsToReview}
+                                           setQuestionsToReview={setQuestionsToReview}
+                                           score = {score} /> : <QuizQuestion currentQuestion={currentQuestion} 
                                                                               setCurrentQuestion={setCurrentQuestion}
                                                                               setQuizIsFinished={setQuizIsFinished}
                                                                               quizIsFinished={quizIsFinished}
                                                                               question={question}
                                                                               score={score}
                                                                               setScore={setScore}
+                                                                              questionsToReview = {questionsToReview}
+                                                                              setQuestionsToReview = {setQuestionsToReview}
                                                                 />}
-             <p>{currentQuestion + 1} / 20</p>
         </div>
     )
 }

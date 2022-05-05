@@ -7,7 +7,7 @@ import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { render } from "react-dom";
 
-function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore}){
+function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore, questionsToReview, setQuestionsToReview}){
     const [answer, setAnswer] = useState("")
     const [optionsArray, setOptionsArray] = useState([])
 
@@ -35,7 +35,6 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         const answerOptions = [shuffledAnswersArray[0]].concat(question.wrongAnswers)
         const shuffledAnswerOptions = shuffle(answerOptions)
     
-        //Save the question options in a useRef so that it doesn't update when the component tries to re-render when choosing an answer
         setOptionsArray(shuffledAnswerOptions)
         }
     
@@ -66,7 +65,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
             //make a fetch call to patch database and flag the question
             fetch(`http://localhost:3001/questions/${question.id}`, configObj)
             .then(res => res.json())
-            .then(updatedQuestion => console.log(updatedQuestion));
+            .then(updatedQuestion => setQuestionsToReview([...questionsToReview, updatedQuestion]));
         }
     }
 
@@ -108,6 +107,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
 
     return(
         <>
+        <p>{currentQuestion + 1} / 20</p>
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
         <Form id="options-form" onSubmit={handleNextQuestion}>
