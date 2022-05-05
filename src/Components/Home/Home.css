@@ -25,6 +25,26 @@
 }
 .home-card-content h1 {
     text-shadow: 2px 2px lightgray;
+    display: inline-block;
+    position: relative;
+}
+.home-card-content h1:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scale(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  transform-origin: bottom-right;
+  transition: transform 0.25s ease-out;
+  z-index: -1;
+}
+.home-card-content h1:hover:after{
+  transform: scaleX(1);
+  background-color: red;
+  transform-origin: bottom left;
 }
 .page-nav-btn{
     text-decoration: none;

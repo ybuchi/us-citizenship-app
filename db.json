@@ -87,7 +87,7 @@
       "answers": [
         "The amendment process"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -420,7 +420,7 @@
         "[NY] Kirsten Gillibrand",
         "[NY] Charles E. Schumer"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -612,7 +612,7 @@
       "answers": [
         "Citizens from their congressional district."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -700,7 +700,7 @@
       "answers": [
         "Kamala Harris"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
