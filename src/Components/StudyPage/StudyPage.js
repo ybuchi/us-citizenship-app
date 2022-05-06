@@ -80,6 +80,7 @@ function StudyPage(){
     return(
         <>
         <header id="study-title">
+        <img src={require("../images/study-book.png")} alt="study-book" style={{width: "100px"}}/>
             <h1>Study Mode</h1>
             <h4>All of the questions laid out in front of you so you can study them until you are ready to take the quiz!</h4>
             <hr></hr>

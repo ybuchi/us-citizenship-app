@@ -19,3 +19,7 @@
 .quiz-type-card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.8);
 }
+
+#tw-questions-title{
+    transform: rotate(-5deg) 
+}
