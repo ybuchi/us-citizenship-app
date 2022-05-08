@@ -14,7 +14,7 @@ function QuizQuestionCard({ question, currentQuestion, setCurrentQuestion, setQu
    
    
     return(
-        <div className="quiz-question-card">
+        <div className="quiz-question-card fade-in">
             {quizIsFinished ? <ResultsCard questionsToReview={questionsToReview}
                                            setQuestionsToReview={setQuestionsToReview}
                                            score = {score} /> : <QuizQuestion currentQuestion={currentQuestion} 

@@ -107,6 +107,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
 
     return(
         <>
+        <article className="fade-in">
         <p>{currentQuestion + 1} / 20</p>
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
@@ -116,6 +117,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
                 <Button id="question-submit-btn" type="submit">Submit</Button>
                 </div>
         </Form>
+        </article>
         
         </>
     )

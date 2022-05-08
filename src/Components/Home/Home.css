@@ -5,18 +5,48 @@
     border-radius: 5px;
     margin: 20px auto;
     position: relative;
-    transition: border-box .5s;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
     
+}
+
+.menu-logo{
+  position: absolute;
+  width: 200px;
+  top: -150px;
+  left: 50%px;
+  transform: translateX(-50%);
+  -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  -ms-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  transition: all .8s ease;
 }
 #study-card{
   background-image: url("../images/study-book.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 40%;
+    /* color: white; */
 }
+#study-card:hover{
+  background-size: 50%;
+}
+.home-card:hover > .menu-logo{
+  width: 250px;
+}
+
 #quiz-card{
   background-image: url("../images/quiz.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 40%;
+}
+#quiz-card:hover{
+  background-size: 50%;
 }
 .home-card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.8);
@@ -37,7 +67,7 @@
 .home-card-content h1 {
     text-shadow: 2px 2px lightgray;
     display: inline-block;
-    position: relative;
+    position: relative; 
 }
 .home-card-content h1:after{
   content: '';
@@ -52,11 +82,14 @@
   transition: transform 0.25s ease-out;
   z-index: -1;
 }
-.home-card-content h1:hover:after{
+.home-card:hover .home-card-content h1:after{
   transform: scaleX(1);
   background-color: red;
   transform-origin: bottom left;
 }
+/* .home-card-content h1:hover:after{
+ 
+} */
 .page-nav-btn{
     text-decoration: none;
     color: white;

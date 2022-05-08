@@ -7,16 +7,16 @@
         "civics"
       ],
       "answers": [
-        "A republic",
-        "A constitution-based federal republic",
-        "A representative democracy"
+        "A republic.",
+        "A constitution-based federal republic.",
+        "A representative democracy."
       ],
       "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "A constitutional monarchy",
-        "A socialist state",
-        "A direct democracy"
+        "A constitutional monarchy.",
+        "A socialist state.",
+        "A direct democracy."
       ]
     },
     {
@@ -26,15 +26,15 @@
         "civics"
       ],
       "answers": [
-        "The U.S. Constitution"
+        "The U.S. Constitution."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "The Federalist Papers",
-        "The Bill of Rights",
-        "The U.S. Supreme Court",
-        "The executive branch of the government"
+        "The Federalist Papers.",
+        "The Bill of Rights.",
+        "The U.S. Supreme Court.",
+        "The executive branch of the government."
       ]
     },
     {
@@ -48,7 +48,7 @@
         "It defines the parts of the government.",
         "It protects the rights of the people."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -73,26 +73,26 @@
       "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "There should be a centralized government.",
-        "It draws state borders.",
-        "It does another thing."
+        "A centralized government should govern the people.",
+        "The people make the laws.",
+        "The people should follow the will of the state."
       ]
     },
     {
       "id": 5,
-      "question": "How are changes made the U.S. Constitution?",
+      "question": "How are changes made to the U.S. Constitution?",
       "type": [
         "civics"
       ],
       "answers": [
-        "The amendment process"
+        "Through the amendment process."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "By popular referendum.",
+        "Through the passing of bills.",
+        "By the President's decree."
       ]
     },
     {
@@ -102,15 +102,14 @@
         "civics"
       ],
       "answers": [
-        "(The basic) rights of all Americans",
-        "(The basic) rights of people living in the United States"
+        "(The basic) rights of all Americans.",
+        "(The basic) rights of people living in the United States."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "The powers of the federal government.",
+        "The powers of the President and their cabinet."
       ]
     },
     {
@@ -125,9 +124,9 @@
       "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        72,
+        14,
+        47
       ]
     },
     {
@@ -145,9 +144,8 @@
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "It defines the different branches of the US government.",
+        "It separates the powers between church and state."
       ]
     },
     {
@@ -157,35 +155,35 @@
         "civics"
       ],
       "answers": [
-        "Declaration of Independence"
-      ],
-      "isFlagged": false,
-      "isSpecialCriteria": false,
-      "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
-      ]
-    },
-    {
-      "id": 10,
-      "question": "Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
-      "type": [
-        "civics"
-      ],
-      "answers": [
-        "Equality",
-        "Liberity",
-        "Social contract",
-        "Natural rights",
-        "Limited government"
+        "The Declaration of Independence."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "The Federalist Papers.",
+        "The Bill of Rights.",
+        "The United States Constitution."
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Name an important idea from the Declaration of Independence and the U.S. Constitution. (Know at least 2 of them.)",
+      "type": [
+        "civics"
+      ],
+      "answers": [
+        "Equality.",
+        "Liberity.",
+        "Social contract.",
+        "Natural rights.",
+        "Limited government."
+      ],
+      "isFlagged": true,
+      "isSpecialCriteria": false,
+      "wrongAnswers": [
+        "Establishment of a free-market economy.",
+        "Separation of church and state.",
+        "Establishment of a British-American trade deal."
       ]
     },
     {
@@ -195,14 +193,15 @@
         "civics"
       ],
       "answers": [
-        "Declaration of Independence"
+        "The Declaration of Independence."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "The Federalist Papers.",
+        "The United States Constitution.",
+        "The Bill of Rights.",
+        "The Articles of Confederation."
       ]
     },
     {
@@ -212,15 +211,15 @@
         "civics"
       ],
       "answers": [
-        "Capitalism",
-        "Free market economy"
+        "Capitalism.",
+        "Free market economy."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "Command economy.",
+        "Mixed system.",
+        "Socialst economy."
       ]
     },
     {
@@ -238,9 +237,9 @@
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "Some people are above the law.",
+        "The government dictates the law.",
+        "The Supreme Court."
       ]
     },
     {
@@ -250,21 +249,22 @@
         "civics"
       ],
       "answers": [
-        "Declaration of Independence",
-        "Articles of Confederation",
-        "Federalist Papers",
-        "Anti-Federalist Papers",
-        "Virginia Declaration of Rights",
-        "Fundamental Orders of Connecticut",
-        "Mayflower Compact",
-        "Iroquois Great Law of Peace"
+        "Declaration of Independence.",
+        "Articles of Confederation.",
+        "Federalist Papers.",
+        "Anti-Federalist Papers.",
+        "Virginia Declaration of Rights.",
+        "Fundamental Orders of Connecticut.",
+        "Mayflower Compact.",
+        "Iroquois Great Law of Peace."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
-        "It draws state borders.",
-        "It does another thing."
+        "The Bill of Rights.",
+        "The Emancipation Proclamation.",
+        "The District of Columbia Emancipation.",
+        "The Social Security Act."
       ]
     },
     {
@@ -274,9 +274,9 @@
         "civics"
       ],
       "answers": [
-        "So one part does not become too powerful.",
-        "Checks and balances.",
-        "Separation of power."
+        "So one part of the government does not become too powerful.",
+        "To establish a system of checks and balances.",
+        "To create a separation of power."
       ],
       "isFlagged": true,
       "isSpecialCriteria": false,
@@ -523,7 +523,7 @@
       "answers": [
         "[Queens, NY] Grace Meng"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -683,7 +683,7 @@
       "answers": [
         "Joe Biden"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -892,7 +892,7 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -930,7 +930,7 @@
         "Resolves disputes (disagreements) about the law.",
         "Decides if a law goes against the (U.S.) Constitution."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -947,7 +947,7 @@
       "answers": [
         "The Supreme Court"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1078,7 +1078,7 @@
         "Give a driver�s license",
         "Approve zoning and land use"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1208,7 +1208,7 @@
         "The United States",
         "The flag"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
