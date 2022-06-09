@@ -11,7 +11,7 @@
         "A constitution-based federal republic.",
         "A representative democracy."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "A constitutional monarchy.",
@@ -48,7 +48,7 @@
         "It defines the parts of the government.",
         "It protects the rights of the people."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -157,7 +157,7 @@
       "answers": [
         "The Declaration of Independence."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "The Federalist Papers.",
@@ -214,7 +214,7 @@
         "Capitalism.",
         "Free market economy."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "Command economy.",
@@ -281,7 +281,7 @@
       "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
-        "It defines school zoning laws.",
+        "In order to",
         "It draws state borders.",
         "It does another thing."
       ]
@@ -523,7 +523,7 @@
       "answers": [
         "[Queens, NY] Grace Meng"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -683,7 +683,7 @@
       "answers": [
         "Joe Biden"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -892,7 +892,7 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -930,7 +930,7 @@
         "Resolves disputes (disagreements) about the law.",
         "Decides if a law goes against the (U.S.) Constitution."
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -947,7 +947,7 @@
       "answers": [
         "The Supreme Court"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1078,7 +1078,7 @@
         "Give a driver�s license",
         "Approve zoning and land use"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -1208,7 +1208,7 @@
         "The United States",
         "The flag"
       ],
-      "isFlagged": true,
+      "isFlagged": false,
       "isSpecialCriteria": true,
       "wrongAnswers": [
         "It defines school zoning laws.",

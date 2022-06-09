@@ -10,7 +10,6 @@ function QuizMenu(){
     return(
         <>
         <div id="quiz-title" className="fade-in">
-            <img alt="quiz" src={require("../images/quiz.png")} style={{width: "100px"}}/>
             <h1>Quiz Mode</h1>
             <h3>Test Your Knowledge</h3>
         </div>

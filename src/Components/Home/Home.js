@@ -18,9 +18,13 @@ function Home() {
   return (
     <div className="App">
     <header id="title-header" className="fade-in">
-      <h1>Welcome to the US Citizenship Naturalization App</h1>
-      <h3>The best place for you to practice for you naturalization test.</h3>
+      <h1>Welcome to NAPP</h1>
+      <h3>The Naturalization App for Future US Citizens.</h3>
     </header>
+
+    <section className="fade-in">
+      <h4>Choose a session type below to begin.</h4>
+    </section>
       
       
       <Container>

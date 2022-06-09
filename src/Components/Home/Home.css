@@ -26,7 +26,7 @@
   transition: all .8s ease;
 }
 #study-card{
-  background-image: url("../images/study-book.png");
+  /* background-image: url("../images/study-book.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
@@ -40,16 +40,18 @@
 }
 
 #quiz-card{
-  background-image: url("../images/quiz.png");
+  /* background-image: url("../images/quiz.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 40%;
 }
 #quiz-card:hover{
   background-size: 50%;
+
 }
 .home-card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.8);
+    cursor: pointer;
 }
 
 #title-header{
@@ -68,6 +70,9 @@
     text-shadow: 2px 2px lightgray;
     display: inline-block;
     position: relative; 
+}
+.home-card:hover .home-card-content h1 {
+  font-size: 45px;
 }
 .home-card-content h1:after{
   content: '';
