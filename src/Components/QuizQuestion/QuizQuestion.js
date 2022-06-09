@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./QuizQuestion.css"
 import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
@@ -7,9 +7,8 @@ import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { render } from "react-dom";
 
-function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore}){
+function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIsFinished, score, setScore, questionsToReview, setQuestionsToReview}){
     const [answer, setAnswer] = useState("")
-    const optionsRef = useRef([]);
     const [optionsArray, setOptionsArray] = useState([])
 
     //A use effect that will generate the list of Options
@@ -36,7 +35,6 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
         const answerOptions = [shuffledAnswersArray[0]].concat(question.wrongAnswers)
         const shuffledAnswerOptions = shuffle(answerOptions)
     
-        //Save the question options in a useRef so that it doesn't update when the component tries to re-render when choosing an answer
         setOptionsArray(shuffledAnswerOptions)
         }
     
@@ -67,7 +65,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
             //make a fetch call to patch database and flag the question
             fetch(`http://localhost:3001/questions/${question.id}`, configObj)
             .then(res => res.json())
-            .then(updatedQuestion => console.log(updatedQuestion));
+            .then(updatedQuestion => setQuestionsToReview([...questionsToReview, updatedQuestion]));
         }
     }
 
@@ -100,7 +98,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
 
     //Map the options into checkboxes
     const mappedOptions = optionsArray.map((possibleAnswer, index) => {return (
-        <label key={`label-${index}`}>
+        <label className="radio-option" key={`label-${index}`}>
             <input type="radio" key={`input-${index}`} name="answer-group" value={possibleAnswer} checked={possibleAnswer === answer} onChange={handleValueChange}/>
             {possibleAnswer}
         </label>
@@ -109,12 +107,17 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
 
     return(
         <>
+        <article className="fade-in">
+        <p>{currentQuestion + 1} / 20</p>
         <header className="quiz-question-title">{question.question}</header>
         <hr></hr>
-        <Form onSubmit={handleNextQuestion}>
+        <Form id="options-form" onSubmit={handleNextQuestion}>
+                <div className="options-container">
                 {mappedOptions.length === 0 ? <p>loading...</p> : mappedOptions}
-           <Button type="submit">Submit</Button>
+                <Button id="question-submit-btn" type="submit">Submit</Button>
+                </div>
         </Form>
+        </article>
         
         </>
     )

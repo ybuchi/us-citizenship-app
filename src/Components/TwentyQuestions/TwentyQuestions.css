@@ -1,10 +1,14 @@
 #twenty-questions-title{
     text-align: center;
-    margin: 120px 90px 90px 90px;
+    margin: 120px 90px 90px 20px;
     font-family: 'IBM Plex Serif', serif;
 }
 
 .quiz-container{
     position: relative;
-    min-height: 200px;
+    min-height: 350px;
+}
+.loading{
+    text-align: center;
+    font-style: italic;
 }

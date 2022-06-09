@@ -20,6 +20,7 @@ function TwentyQuestions(){
         correct_answers: 0,
         incorrect_answers: 0
     })
+    const [questionsToReview, setQuestionsToReview] = useState([])
     //A helper function to shuffle arrays
     //This functino can be bastracted into its own custom Hook. Also used in QuizQuestion Component
         
@@ -77,14 +78,16 @@ function TwentyQuestions(){
             <h1> 20 Questions </h1>
         </div>
         <div className="quiz-container">
-            {quizQuestions.length === 0 ? <h1>Loading...</h1> : <QuizQuestionCard 
+            {quizQuestions.length === 0 ? <h1 className="loading">Loading...</h1> : <QuizQuestionCard 
                                                                                             question={quizQuestions[currentQuestion]}
                                                                                             currentQuestion={currentQuestion} 
                                                                                             setCurrentQuestion={setCurrentQuestion}
                                                                                             setQuizIsFinished={setQuizIsFinished}
                                                                                             quizIsFinished={quizIsFinished}
                                                                                             score={score}
-                                                                                            setScore={setScore}/> }
+                                                                                            setScore={setScore}
+                                                                                            questionsToReview = {questionsToReview}
+                                                                                            setQuestionsToReview = {setQuestionsToReview}/> }
         </div>
         </>
     )

@@ -1,3 +1,18 @@
 .quiz-question-title{
     font-size: 30px;
 }
+
+.options-container{
+   margin: 20px;
+}
+.radio-option{
+    display: block;
+    text-align: left;
+}
+.radio-option input{
+    margin-right: 15px;
+}
+
+#question-submit-btn{
+    margin-top: 20px;
+}
