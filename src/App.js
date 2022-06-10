@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom';
-import NavBar from './Components/NavBar/NavBar';
+import NavBar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 
 
