@@ -13,7 +13,6 @@ function App() {
         .then(res => res.json())
         .then(questionsData => setQuestionsData(questionsData))
     }, [])
- 
   return (
     <>
     <NavBar />
