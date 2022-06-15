@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom';
-import NavBar from './Components/NavBar/NavBar';
+import NavigationBar from './Components/NavigationBar/NavigationBar';
 import Footer from './Components/Footer/Footer';
 
 
@@ -15,7 +15,7 @@ function App() {
     }, [])
   return (
     <>
-    <NavBar />
+    <NavigationBar />
     <Outlet context={[questionsData, setQuestionsData]} />
     <Footer/>
     </>
