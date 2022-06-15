@@ -523,7 +523,7 @@
       "answers": [
         "[Queens, NY] Grace Meng"
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",
@@ -892,7 +892,7 @@
         "It decides who is elected president.",
         "It provides a compromise between the popular election of the president and congressional selection."
       ],
-      "isFlagged": false,
+      "isFlagged": true,
       "isSpecialCriteria": false,
       "wrongAnswers": [
         "It defines school zoning laws.",

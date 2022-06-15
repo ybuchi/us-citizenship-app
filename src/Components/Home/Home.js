@@ -18,8 +18,8 @@ function Home() {
   return (
     <div className="App">
     <header id="title-header" className="fade-in">
-      <h1>Welcome to NAPP</h1>
-      <h3>The Naturalization App for Future US Citizens.</h3>
+      <img src={require("../images/NApp.png")} alt="Ellis App"/>
+      <h3>Study and Ace the US Naturalization Interview.</h3>
     </header>
 
     <section className="fade-in">
