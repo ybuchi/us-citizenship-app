@@ -23,7 +23,7 @@ function QuestionCard( {question} ){
             },
             body: JSON.stringify({isFlagged: changedFlagValue})
         }
-        fetch(`http://localhost:3001/questions/${question.id}`, configObj)
+        fetch(`/questions/${question.id}`, configObj)
         .then(res=> res.json())
         .then(patchedQuestion => {
             const updatedData = questionsData.map((question)=>{
