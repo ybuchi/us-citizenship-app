@@ -23,7 +23,7 @@ function QuestionCard( {question} ){
             },
             body: JSON.stringify({isFlagged: changedFlagValue})
         }
-        fetch(`${process.env.REACT_APP_API_URL}/questions/${question.id}`, configObj)
+        fetch(`${process.env.REACT_APP_API_URI}/questions/${question.id}`, configObj)
         .then(res=> res.json())
         .then(patchedQuestion => {
             const updatedData = questionsData.map((question)=>{

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import "./QuizQuestionCard.css";
 import Button  from "react-bootstrap/Button";
 import ResultsCard from "../ResultsCard/ResultsCard";
