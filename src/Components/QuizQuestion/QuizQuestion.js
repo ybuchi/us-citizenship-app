@@ -63,7 +63,7 @@ function QuizQuestion({ question, currentQuestion, setCurrentQuestion, setQuizIs
             }
             setScore({...score, incorrect_answers: ++score.incorrect_answers})
             //make a fetch call to patch database and flag the question
-            fetch(`/questions/${question.id}`, configObj)
+            fetch(`${process.env.REACT_APP_API_URL}/questions/${question.id}`, configObj)
             .then(res => res.json())
             .then(updatedQuestion => setQuestionsToReview([...questionsToReview, updatedQuestion]));
         }

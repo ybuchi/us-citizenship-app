@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import "./QuizMenu.css"
-import { useOutletContext } from "react-router-dom";
+import React from "react";
+import "./QuizMenu.css";
 import { Col, Row, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 

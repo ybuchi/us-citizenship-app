@@ -5,7 +5,7 @@ function useQuestionsData(){
     const [questionsData, setQuestionsData] = useState([])
 
     useEffect(()=>{
-        fetch("/questions")
+        fetch(`${process.env.REACT_APP_API_URL}/questions`)
         .then(res => res.json())
         .then(questionsData => setQuestionsData(questionsData))
     }, [])
