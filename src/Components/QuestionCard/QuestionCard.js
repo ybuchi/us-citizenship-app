@@ -9,8 +9,8 @@ function QuestionCard( {question} ){
     const [questionsData, setQuestionsData] = useOutletContext();
 
     //Mapped Elements
-    const mappedQuestionTypes = question.type.map(type=><span className="type-label"><strong>{type.toUpperCase()}</strong></span>)
-    const mappedQuestionAnswers = question.answers.map(answer=><li>{answer}</li>)
+    const mappedQuestionTypes = question.type.map((type, index)=><span key={index} className="type-label"><strong>{type.toUpperCase()}</strong></span>)
+    const mappedQuestionAnswers = question.answers.map((answer, index)=><li key={index}>{answer}</li>)
     
     function handleIsFlagged(){
         // setButtonIsFlagged(!buttonIsFlagged)

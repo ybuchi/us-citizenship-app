@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 function useQuestionsData(){
+    console.log(process.env.REACT_APP_API_URI)
 
     const [questionsData, setQuestionsData] = useState([])
 

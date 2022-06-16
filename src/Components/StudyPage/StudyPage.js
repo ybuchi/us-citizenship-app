@@ -60,7 +60,7 @@ function StudyPage(){
     })
 
     const mappedQuestions = filteredQuestions.map((question)=>{
-        return(<li><QuestionCard key={question.id} question={question}/></li>)
+        return(<li key={question.id}><QuestionCard  question={question}/></li>)
     })
 
     function handleFilter(e){
